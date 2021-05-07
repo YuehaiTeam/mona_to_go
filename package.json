@@ -1,6 +1,6 @@
 {
   "name": "@mr-quin/mona_to_go",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Convert Mona to Genshin Optimizer",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -14,6 +14,7 @@
     "test": "mocha -r ts-node/register 'tests/**/*.ts'",
     "coverage": "nyc npm run test"
   },
+  "homepage": "https://github.com/Mr-Quin/mona_to_go",
   "author": "Mr-Quin",
   "license": "MIT",
   "devDependencies": {
