@@ -1,0 +1,3862 @@
+{
+  "version": 3,
+  "characterDatabase": {
+    "ganyu": {
+      "characterKey": "ganyu",
+      "levelKey": "L90",
+      "hitMode": "critHit",
+      "reactionMode": null,
+      "equippedArtifacts": {
+        "flower": "",
+        "plume": "",
+        "sands": "",
+        "goblet": "",
+        "circlet": ""
+      },
+      "conditionalValues": {
+        "character": {
+          "ganyu": {
+            "a1": [
+              1
+            ],
+            "c1": [
+              1
+            ]
+          }
+        },
+        "weapon": {
+          "AmosBow": {
+            "sw": [
+              3
+            ]
+          }
+        }
+      },
+      "baseStatOverrides": {},
+      "weapon": {
+        "key": "AmosBow",
+        "levelKey": "L90",
+        "refineIndex": 4,
+        "overrideMainVal": 0,
+        "overrideSubVal": 0
+      },
+      "talentLevelKeys": {
+        "auto": 9,
+        "skill": 7,
+        "burst": 8
+      },
+      "infusionAura": "",
+      "constellation": 6,
+      "buildSettings": {
+        "setFilters": [
+          {
+            "key": "",
+            "num": 0
+          },
+          {
+            "key": "",
+            "num": 0
+          },
+          {
+            "key": "",
+            "num": 0
+          }
+        ],
+        "statFilters": {},
+        "mainStatKeys": [
+          "",
+          "",
+          ""
+        ],
+        "optimizationTarget": "finalATK",
+        "mainStatAssumptionLevel": 0,
+        "useLockedArts": false,
+        "useEquippedArts": false,
+        "ascending": false
+      },
+      "artifactConditionals": [],
+      "talentConditionals": [
+        {
+          "srcKey": "auto",
+          "conditionalNum": 1,
+          "srcKey2": "UndividedHeart"
+        },
+        {
+          "srcKey": "auto",
+          "conditionalNum": 1,
+          "srcKey2": "DewDrinker"
+        }
+      ]
+    },
+    "xiao": {
+      "characterKey": "xiao",
+      "levelKey": "L90",
+      "hitMode": "critHit",
+      "reactionMode": null,
+      "equippedArtifacts": {
+        "flower": "",
+        "plume": "",
+        "sands": "",
+        "goblet": "",
+        "circlet": ""
+      },
+      "conditionalValues": {
+        "character": {
+          "xiao": {
+            "q": [
+              1
+            ]
+          }
+        },
+        "weapon": {
+          "PrimordialJadeWingedSpear": {
+            "e": [
+              1,
+              "a7"
+            ]
+          }
+        }
+      },
+      "baseStatOverrides": {
+        "anemo_enemyImmunity": false
+      },
+      "weapon": {
+        "key": "PrimordialJadeWingedSpear",
+        "levelKey": "L90",
+        "refineIndex": 3,
+        "overrideMainVal": 0,
+        "overrideSubVal": 0
+      },
+      "talentLevelKeys": {
+        "auto": 9,
+        "skill": 5,
+        "burst": 9
+      },
+      "infusionAura": "",
+      "constellation": 1,
+      "buildSettings": {
+        "setFilters": [
+          {
+            "key": "",
+            "num": 0
+          },
+          {
+            "key": "",
+            "num": 0
+          },
+          {
+            "key": "",
+            "num": 0
+          }
+        ],
+        "statFilters": {},
+        "mainStatKeys": [
+          "",
+          "",
+          ""
+        ],
+        "optimizationTarget": [
+          "character",
+          "xiao",
+          "plunging",
+          "high"
+        ],
+        "mainStatAssumptionLevel": 0,
+        "useLockedArts": false,
+        "useEquippedArts": false,
+        "ascending": false
+      },
+      "artifactConditionals": [],
+      "talentConditionals": [
+        {
+          "srcKey": "auto",
+          "conditionalNum": 1,
+          "srcKey2": "UndividedHeart"
+        },
+        {
+          "srcKey": "auto",
+          "conditionalNum": 1,
+          "srcKey2": "DewDrinker"
+        }
+      ]
+    }
+  },
+  "artifactDatabase": {
+    "artifact_76": {
+      "setKey": "NoblesseOblige",
+      "numStars": 5,
+      "slotKey": "sands",
+      "level": 20,
+      "mainStatKey": "enerRech_",
+      "substats": [
+        {
+          "key": "critDMG_",
+          "value": 14.000000000000002,
+          "rolls": [
+            6.99,
+            6.99
+          ],
+          "efficiency": 89.96138996138997,
+          "accurateValue": 13.98
+        },
+        {
+          "key": "def",
+          "value": 42,
+          "rolls": [
+            20.83,
+            20.83
+          ],
+          "efficiency": 89.97840172786177,
+          "accurateValue": 41.66
+        },
+        {
+          "key": "eleMas",
+          "value": 56,
+          "rolls": [
+            18.65,
+            18.65,
+            18.65
+          ],
+          "efficiency": 80.00858000858001,
+          "accurateValue": 55.949999999999996
+        },
+        {
+          "key": "critRate_",
+          "value": 6.200000000000001,
+          "rolls": [
+            3.11,
+            3.11
+          ],
+          "efficiency": 79.94858611825192,
+          "accurateValue": 6.22
+        }
+      ],
+      "id": "artifact_76",
+      "currentEfficiency": 84.42249951563859,
+      "maximumEfficiency": 84.42249951563859
+    },
+    "artifact_43": {
+      "setKey": "ViridescentVenerer",
+      "numStars": 5,
+      "slotKey": "flower",
+      "level": 20,
+      "mainStatKey": "hp",
+      "substats": [
+        {
+          "key": "eleMas",
+          "value": 47,
+          "rolls": [
+            23.31,
+            23.31
+          ],
+          "efficiency": 100,
+          "accurateValue": 46.62
+        },
+        {
+          "key": "hp_",
+          "value": 11.7,
+          "rolls": [
+            5.83,
+            5.83
+          ],
+          "efficiency": 100,
+          "accurateValue": 11.66
+        },
+        {
+          "key": "critDMG_",
+          "value": 12.400000000000002,
+          "rolls": [
+            5.44,
+            6.99
+          ],
+          "efficiency": 79.98712998712999,
+          "accurateValue": 12.43
+        },
+        {
+          "key": "critRate_",
+          "value": 9.3,
+          "rolls": [
+            3.11,
+            3.11,
+            3.11
+          ],
+          "efficiency": 79.94858611825192,
+          "accurateValue": 9.33
+        }
+      ],
+      "id": "artifact_43",
+      "currentEfficiency": 88.8688909254462,
+      "maximumEfficiency": 88.8688909254462
+    },
+    "artifact_2": {
+      "setKey": "HeartOfDepth",
+      "numStars": 5,
+      "slotKey": "goblet",
+      "level": 20,
+      "mainStatKey": "atk_",
+      "substats": [
+        {
+          "key": "critRate_",
+          "value": 13.600000000000001,
+          "rolls": [
+            3.11,
+            3.5,
+            3.5,
+            3.5
+          ],
+          "efficiency": 87.46786632390744,
+          "accurateValue": 13.61
+        },
+        {
+          "key": "atk",
+          "value": 47,
+          "rolls": [
+            15.56,
+            15.56,
+            15.56
+          ],
+          "efficiency": 80,
+          "accurateValue": 46.68
+        },
+        {
+          "key": "critDMG_",
+          "value": 7.000000000000001,
+          "rolls": [
+            6.99
+          ],
+          "efficiency": 89.96138996138997,
+          "accurateValue": 6.99
+        },
+        {
+          "key": "hp_",
+          "value": 4.1,
+          "rolls": [
+            4.08
+          ],
+          "efficiency": 69.9828473413379,
+          "accurateValue": 4.08
+        }
+      ],
+      "id": "artifact_2",
+      "currentEfficiency": 83.31285584426195,
+      "maximumEfficiency": 83.31285584426195
+    },
+    "artifact_13": {
+      "setKey": "ViridescentVenerer",
+      "numStars": 5,
+      "slotKey": "goblet",
+      "level": 20,
+      "mainStatKey": "electro_dmg_",
+      "substats": [
+        {
+          "key": "def",
+          "value": 23,
+          "rolls": [
+            23.15
+          ],
+          "efficiency": 100,
+          "accurateValue": 23.15
+        },
+        {
+          "key": "critRate_",
+          "value": 16.3,
+          "rolls": [
+            3.11,
+            3.11,
+            3.11,
+            3.5,
+            3.5
+          ],
+          "efficiency": 83.95886889460154,
+          "accurateValue": 16.33
+        },
+        {
+          "key": "atk_",
+          "value": 5.3,
+          "rolls": [
+            5.25
+          ],
+          "efficiency": 90.05145797598628,
+          "accurateValue": 5.25
+        },
+        {
+          "key": "hp",
+          "value": 209,
+          "rolls": [
+            209.13
+          ],
+          "efficiency": 70.00167364016735,
+          "accurateValue": 209.13
+        }
+      ],
+      "id": "artifact_13",
+      "currentEfficiency": 75.53860845435125,
+      "maximumEfficiency": 75.53860845435125
+    },
+    "artifact_1": {
+      "setKey": "HeartOfDepth",
+      "numStars": 5,
+      "slotKey": "goblet",
+      "level": 20,
+      "mainStatKey": "anemo_dmg_",
+      "substats": [
+        {
+          "key": "def_",
+          "value": 10.2,
+          "rolls": [
+            5.1,
+            5.1
+          ],
+          "efficiency": 69.9588477366255,
+          "accurateValue": 10.2
+        },
+        {
+          "key": "critDMG_",
+          "value": 14.000000000000002,
+          "rolls": [
+            6.99,
+            6.99
+          ],
+          "efficiency": 89.96138996138997,
+          "accurateValue": 13.98
+        },
+        {
+          "key": "hp_",
+          "value": 5.8,
+          "rolls": [
+            5.83
+          ],
+          "efficiency": 100,
+          "accurateValue": 5.83
+        },
+        {
+          "key": "atk_",
+          "value": 19.8,
+          "rolls": [
+            4.66,
+            4.66,
+            4.66,
+            5.83
+          ],
+          "efficiency": 84.94854202401373,
+          "accurateValue": 19.810000000000002
+        }
+      ],
+      "id": "artifact_1",
+      "currentEfficiency": 84.40384927689843,
+      "maximumEfficiency": 84.40384927689843
+    },
+    "artifact_16": {
+      "setKey": "BlizzardStrayer",
+      "numStars": 5,
+      "slotKey": "goblet",
+      "level": 20,
+      "mainStatKey": "cryo_dmg_",
+      "substats": [
+        {
+          "key": "def_",
+          "value": 13.900000000000002,
+          "rolls": [
+            6.56,
+            7.29
+          ],
+          "efficiency": 94.99314128943759,
+          "accurateValue": 13.85
+        },
+        {
+          "key": "atk",
+          "value": 16,
+          "rolls": [
+            15.56
+          ],
+          "efficiency": 80,
+          "accurateValue": 15.56
+        },
+        {
+          "key": "critDMG_",
+          "value": 19.4,
+          "rolls": [
+            5.44,
+            6.99,
+            6.99
+          ],
+          "efficiency": 83.31188331188332,
+          "accurateValue": 19.42
+        },
+        {
+          "key": "atk_",
+          "value": 10.5,
+          "rolls": [
+            4.66,
+            5.83
+          ],
+          "efficiency": 89.96569468267582,
+          "accurateValue": 10.49
+        }
+      ],
+      "id": "artifact_16",
+      "currentEfficiency": 77.76148020887518,
+      "maximumEfficiency": 77.76148020887518
+    },
+    "artifact_15": {
+      "setKey": "ViridescentVenerer",
+      "numStars": 5,
+      "slotKey": "goblet",
+      "level": 20,
+      "mainStatKey": "electro_dmg_",
+      "substats": [
+        {
+          "key": "def",
+          "value": 37,
+          "rolls": [
+            16.2,
+            20.83
+          ],
+          "efficiency": 79.97840172786178,
+          "accurateValue": 37.03
+        },
+        {
+          "key": "hp",
+          "value": 837,
+          "rolls": [
+            239,
+            298.75,
+            298.75
+          ],
+          "efficiency": 93.33333333333333,
+          "accurateValue": 836.5
+        },
+        {
+          "key": "atk",
+          "value": 19,
+          "rolls": [
+            19.45
+          ],
+          "efficiency": 100,
+          "accurateValue": 19.45
+        },
+        {
+          "key": "critDMG_",
+          "value": 13.200000000000001,
+          "rolls": [
+            6.22,
+            6.99
+          ],
+          "efficiency": 85.00643500643503,
+          "accurateValue": 13.21
+        }
+      ],
+      "id": "artifact_15",
+      "currentEfficiency": 78.88551927428817,
+      "maximumEfficiency": 78.88551927428817
+    },
+    "artifact_31": {
+      "setKey": "ViridescentVenerer",
+      "numStars": 5,
+      "slotKey": "plume",
+      "level": 20,
+      "mainStatKey": "atk",
+      "substats": [
+        {
+          "key": "hp",
+          "value": 448,
+          "rolls": [
+            209.13,
+            239
+          ],
+          "efficiency": 75.00083682008368,
+          "accurateValue": 448.13
+        },
+        {
+          "key": "critDMG_",
+          "value": 12.400000000000002,
+          "rolls": [
+            5.44,
+            6.99
+          ],
+          "efficiency": 79.98712998712999,
+          "accurateValue": 12.43
+        },
+        {
+          "key": "enerRech_",
+          "value": 12.3,
+          "rolls": [
+            5.83,
+            6.48
+          ],
+          "efficiency": 94.98456790123456,
+          "accurateValue": 12.31
+        },
+        {
+          "key": "eleMas",
+          "value": 42,
+          "rolls": [
+            20.98,
+            20.98
+          ],
+          "efficiency": 90.00429000429001,
+          "accurateValue": 41.96
+        }
+      ],
+      "id": "artifact_31",
+      "currentEfficiency": 75.5504054917196,
+      "maximumEfficiency": 75.5504054917196
+    },
+    "artifact_22": {
+      "setKey": "MaidenBeloved",
+      "numStars": 4,
+      "slotKey": "goblet",
+      "level": 16,
+      "mainStatKey": "hp_",
+      "substats": [
+        {
+          "key": "atk_",
+          "value": 7.5
+        },
+        {
+          "key": "enerRech_",
+          "value": 11.4
+        },
+        {
+          "key": "def",
+          "value": 13
+        },
+        {
+          "key": "atk",
+          "value": 11
+        }
+      ],
+      "id": "artifact_22"
+    },
+    "artifact_73": {
+      "setKey": "Lavawalker",
+      "numStars": 5,
+      "slotKey": "circlet",
+      "level": 14,
+      "mainStatKey": "critRate_",
+      "substats": [
+        {
+          "key": "atk",
+          "value": 14
+        },
+        {
+          "key": "atk_",
+          "value": 9.3
+        },
+        {
+          "key": "critDMG_",
+          "value": 11.7
+        },
+        {
+          "key": "hp_",
+          "value": 5.8
+        }
+      ],
+      "id": "artifact_73"
+    },
+    "artifact_55": {
+      "setKey": "CrimsonWitchOfFlames",
+      "numStars": 5,
+      "slotKey": "flower",
+      "level": 20,
+      "mainStatKey": "hp",
+      "substats": [
+        {
+          "key": "atk",
+          "value": 18,
+          "rolls": [
+            17.51
+          ],
+          "efficiency": 90.02570694087404,
+          "accurateValue": 17.51
+        },
+        {
+          "key": "critDMG_",
+          "value": 24.9,
+          "rolls": [
+            5.44,
+            5.44,
+            6.99,
+            6.99
+          ],
+          "efficiency": 79.98712998712999,
+          "accurateValue": 24.86
+        },
+        {
+          "key": "critRate_",
+          "value": 2.7,
+          "rolls": [
+            2.72
+          ],
+          "efficiency": 69.9228791773779,
+          "accurateValue": 2.72
+        },
+        {
+          "key": "hp_",
+          "value": 11.1,
+          "rolls": [
+            5.25,
+            5.83
+          ],
+          "efficiency": 95.02572898799315,
+          "accurateValue": 11.08
+        }
+      ],
+      "id": "artifact_55",
+      "currentEfficiency": 74.43872933808423,
+      "maximumEfficiency": 74.43872933808423
+    },
+    "artifact_26": {
+      "setKey": "CrimsonWitchOfFlames",
+      "numStars": 5,
+      "slotKey": "plume",
+      "level": 20,
+      "mainStatKey": "atk",
+      "substats": [
+        {
+          "key": "eleMas",
+          "value": 47,
+          "rolls": [
+            23.31,
+            23.31
+          ],
+          "efficiency": 100,
+          "accurateValue": 46.62
+        },
+        {
+          "key": "critDMG_",
+          "value": 11.7,
+          "rolls": [
+            5.44,
+            6.22
+          ],
+          "efficiency": 75.03217503217505,
+          "accurateValue": 11.66
+        },
+        {
+          "key": "enerRech_",
+          "value": 12.3,
+          "rolls": [
+            5.83,
+            6.48
+          ],
+          "efficiency": 94.98456790123456,
+          "accurateValue": 12.31
+        },
+        {
+          "key": "critRate_",
+          "value": 7.000000000000001,
+          "rolls": [
+            3.5,
+            3.5
+          ],
+          "efficiency": 89.97429305912597,
+          "accurateValue": 7
+        }
+      ],
+      "id": "artifact_26",
+      "currentEfficiency": 79.99800799834124,
+      "maximumEfficiency": 79.99800799834124
+    },
+    "artifact_78": {
+      "setKey": "NoblesseOblige",
+      "numStars": 5,
+      "slotKey": "sands",
+      "level": 20,
+      "mainStatKey": "enerRech_",
+      "substats": [
+        {
+          "key": "def",
+          "value": 37,
+          "rolls": [
+            16.2,
+            20.83
+          ],
+          "efficiency": 79.97840172786178,
+          "accurateValue": 37.03
+        },
+        {
+          "key": "eleMas",
+          "value": 65,
+          "rolls": [
+            20.98,
+            20.98,
+            23.31
+          ],
+          "efficiency": 93.33619333619335,
+          "accurateValue": 65.27
+        },
+        {
+          "key": "critRate_",
+          "value": 2.7,
+          "rolls": [
+            2.72
+          ],
+          "efficiency": 69.9228791773779,
+          "accurateValue": 2.72
+        },
+        {
+          "key": "critDMG_",
+          "value": 14.000000000000002,
+          "rolls": [
+            6.99,
+            6.99
+          ],
+          "efficiency": 89.96138996138997,
+          "accurateValue": 13.98
+        }
+      ],
+      "id": "artifact_78",
+      "currentEfficiency": 76.64567139605126,
+      "maximumEfficiency": 76.64567139605126
+    },
+    "artifact_45": {
+      "setKey": "GladiatorsFinale",
+      "numStars": 5,
+      "slotKey": "flower",
+      "level": 20,
+      "mainStatKey": "hp",
+      "substats": [
+        {
+          "key": "critRate_",
+          "value": 3.5000000000000004,
+          "rolls": [
+            3.5
+          ],
+          "efficiency": 89.97429305912597,
+          "accurateValue": 3.5
+        },
+        {
+          "key": "atk_",
+          "value": 19.2,
+          "rolls": [
+            4.66,
+            4.66,
+            4.66,
+            5.25
+          ],
+          "efficiency": 82.46140651801029,
+          "accurateValue": 19.23
+        },
+        {
+          "key": "atk",
+          "value": 39,
+          "rolls": [
+            19.45,
+            19.45
+          ],
+          "efficiency": 100,
+          "accurateValue": 38.9
+        },
+        {
+          "key": "critDMG_",
+          "value": 13.200000000000001,
+          "rolls": [
+            6.22,
+            6.99
+          ],
+          "efficiency": 85.00643500643503,
+          "accurateValue": 13.21
+        }
+      ],
+      "id": "artifact_45",
+      "currentEfficiency": 87.7591987937819,
+      "maximumEfficiency": 87.7591987937819
+    },
+    "artifact_44": {
+      "setKey": "ViridescentVenerer",
+      "numStars": 5,
+      "slotKey": "flower",
+      "level": 20,
+      "mainStatKey": "hp",
+      "substats": [
+        {
+          "key": "eleMas",
+          "value": 44,
+          "rolls": [
+            20.98,
+            23.31
+          ],
+          "efficiency": 95.00214500214501,
+          "accurateValue": 44.29
+        },
+        {
+          "key": "critRate_",
+          "value": 5.4,
+          "rolls": [
+            2.72,
+            2.72
+          ],
+          "efficiency": 69.9228791773779,
+          "accurateValue": 5.44
+        },
+        {
+          "key": "def",
+          "value": 37,
+          "rolls": [
+            16.2,
+            20.83
+          ],
+          "efficiency": 79.97840172786178,
+          "accurateValue": 37.03
+        },
+        {
+          "key": "enerRech_",
+          "value": 16.2,
+          "rolls": [
+            5.18,
+            5.18,
+            5.83
+          ],
+          "efficiency": 83.2818930041152,
+          "accurateValue": 16.189999999999998
+        }
+      ],
+      "id": "artifact_44",
+      "currentEfficiency": 82.18361453634611,
+      "maximumEfficiency": 82.18361453634611
+    },
+    "artifact_70": {
+      "setKey": "MaidenBeloved",
+      "numStars": 5,
+      "slotKey": "circlet",
+      "level": 20,
+      "mainStatKey": "hp_",
+      "substats": [
+        {
+          "key": "eleMas",
+          "value": 40,
+          "rolls": [
+            18.65,
+            20.98
+          ],
+          "efficiency": 85.006435006435,
+          "accurateValue": 39.629999999999995
+        },
+        {
+          "key": "enerRech_",
+          "value": 6.5,
+          "rolls": [
+            6.48
+          ],
+          "efficiency": 100,
+          "accurateValue": 6.48
+        },
+        {
+          "key": "hp",
+          "value": 1016,
+          "rolls": [
+            239,
+            239,
+            239,
+            298.75
+          ],
+          "efficiency": 85,
+          "accurateValue": 1015.75
+        },
+        {
+          "key": "def",
+          "value": 21,
+          "rolls": [
+            20.83
+          ],
+          "efficiency": 89.97840172786177,
+          "accurateValue": 20.83
+        }
+      ],
+      "id": "artifact_70",
+      "currentEfficiency": 77.77680797119243,
+      "maximumEfficiency": 77.77680797119243
+    },
+    "artifact_17": {
+      "setKey": "BlizzardStrayer",
+      "numStars": 5,
+      "slotKey": "goblet",
+      "level": 20,
+      "mainStatKey": "eleMas",
+      "substats": [
+        {
+          "key": "atk_",
+          "value": 11.1,
+          "rolls": [
+            5.25,
+            5.83
+          ],
+          "efficiency": 95.02572898799315,
+          "accurateValue": 11.08
+        },
+        {
+          "key": "critDMG_",
+          "value": 12.400000000000002,
+          "rolls": [
+            5.44,
+            6.99
+          ],
+          "efficiency": 79.98712998712999,
+          "accurateValue": 12.43
+        },
+        {
+          "key": "critRate_",
+          "value": 7.8,
+          "rolls": [
+            3.89,
+            3.89
+          ],
+          "efficiency": 100,
+          "accurateValue": 7.78
+        },
+        {
+          "key": "hp_",
+          "value": 9.3,
+          "rolls": [
+            4.66,
+            4.66
+          ],
+          "efficiency": 79.93138936535163,
+          "accurateValue": 9.32
+        }
+      ],
+      "id": "artifact_17",
+      "currentEfficiency": 78.87649963121662,
+      "maximumEfficiency": 78.87649963121662
+    },
+    "artifact_48": {
+      "setKey": "HeartOfDepth",
+      "numStars": 5,
+      "slotKey": "flower",
+      "level": 20,
+      "mainStatKey": "hp",
+      "substats": [
+        {
+          "key": "critDMG_",
+          "value": 26.400000000000002,
+          "rolls": [
+            5.44,
+            6.99,
+            6.99,
+            6.99
+          ],
+          "efficiency": 84.97425997426,
+          "accurateValue": 26.410000000000004
+        },
+        {
+          "key": "atk",
+          "value": 35,
+          "rolls": [
+            15.56,
+            19.45
+          ],
+          "efficiency": 90,
+          "accurateValue": 35.01
+        },
+        {
+          "key": "atk_",
+          "value": 4.1,
+          "rolls": [
+            4.08
+          ],
+          "efficiency": 69.9828473413379,
+          "accurateValue": 4.08
+        },
+        {
+          "key": "critRate_",
+          "value": 3.5000000000000004,
+          "rolls": [
+            3.5
+          ],
+          "efficiency": 89.97429305912597,
+          "accurateValue": 3.5
+        }
+      ],
+      "id": "artifact_48",
+      "currentEfficiency": 75.53935336638932,
+      "maximumEfficiency": 75.53935336638932
+    },
+    "artifact_83": {
+      "setKey": "GladiatorsFinale",
+      "numStars": 5,
+      "slotKey": "sands",
+      "level": 20,
+      "mainStatKey": "atk_",
+      "substats": [
+        {
+          "key": "critDMG_",
+          "value": 6.200000000000001,
+          "rolls": [
+            6.22
+          ],
+          "efficiency": 80.05148005148006,
+          "accurateValue": 6.22
+        },
+        {
+          "key": "hp_",
+          "value": 12.8,
+          "rolls": [
+            4.08,
+            4.08,
+            4.66
+          ],
+          "efficiency": 73.29902801600913,
+          "accurateValue": 12.82
+        },
+        {
+          "key": "eleMas",
+          "value": 42,
+          "rolls": [
+            20.98,
+            20.98
+          ],
+          "efficiency": 90.00429000429001,
+          "accurateValue": 41.96
+        },
+        {
+          "key": "def",
+          "value": 39,
+          "rolls": [
+            18.52,
+            20.83
+          ],
+          "efficiency": 84.98920086393088,
+          "accurateValue": 39.349999999999994
+        }
+      ],
+      "id": "artifact_83",
+      "currentEfficiency": 72.21506064843881,
+      "maximumEfficiency": 72.21506064843881
+    },
+    "artifact_86": {
+      "setKey": "MaidenBeloved",
+      "numStars": 5,
+      "slotKey": "sands",
+      "level": 16,
+      "mainStatKey": "hp_",
+      "substats": [
+        {
+          "key": "enerRech_",
+          "value": 23.3
+        },
+        {
+          "key": "atk",
+          "value": 29
+        },
+        {
+          "key": "hp",
+          "value": 239
+        },
+        {
+          "key": "critRate_",
+          "value": 3.5000000000000004
+        }
+      ],
+      "id": "artifact_86"
+    },
+    "artifact_54": {
+      "setKey": "NoblesseOblige",
+      "numStars": 5,
+      "slotKey": "flower",
+      "level": 20,
+      "mainStatKey": "hp",
+      "substats": [
+        {
+          "key": "enerRech_",
+          "value": 9.7,
+          "rolls": [
+            4.53,
+            5.18
+          ],
+          "efficiency": 74.92283950617285,
+          "accurateValue": 9.71
+        },
+        {
+          "key": "atk_",
+          "value": 14.6,
+          "rolls": [
+            4.66,
+            4.66,
+            5.25
+          ],
+          "efficiency": 83.30474556889651,
+          "accurateValue": 14.57
+        },
+        {
+          "key": "atk",
+          "value": 14,
+          "rolls": [
+            13.62
+          ],
+          "efficiency": 70.02570694087403,
+          "accurateValue": 13.62
+        },
+        {
+          "key": "critRate_",
+          "value": 5.8,
+          "rolls": [
+            2.72,
+            3.11
+          ],
+          "efficiency": 74.93573264781492,
+          "accurateValue": 5.83
+        }
+      ],
+      "id": "artifact_54",
+      "currentEfficiency": 68.85078755061546,
+      "maximumEfficiency": 68.85078755061546
+    },
+    "artifact_40": {
+      "setKey": "Instructor",
+      "numStars": 4,
+      "slotKey": "plume",
+      "level": 20,
+      "mainStatKey": "atk",
+      "substats": [
+        {
+          "key": "eleMas",
+          "value": 15
+        },
+        {
+          "key": "enerRech_",
+          "value": 4.1
+        },
+        {
+          "key": "atk_",
+          "value": 3.3000000000000003
+        },
+        {
+          "key": "hp",
+          "value": 406
+        }
+      ],
+      "id": "artifact_40"
+    },
+    "artifact_19": {
+      "setKey": "NoblesseOblige",
+      "numStars": 5,
+      "slotKey": "goblet",
+      "level": 17,
+      "mainStatKey": "geo_dmg_",
+      "substats": [
+        {
+          "key": "def_",
+          "value": 11.7
+        },
+        {
+          "key": "atk_",
+          "value": 5.8
+        },
+        {
+          "key": "hp_",
+          "value": 9.9
+        },
+        {
+          "key": "critRate_",
+          "value": 5.8
+        }
+      ],
+      "id": "artifact_19"
+    },
+    "artifact_27": {
+      "setKey": "WanderersTroupe",
+      "numStars": 5,
+      "slotKey": "plume",
+      "level": 20,
+      "mainStatKey": "atk",
+      "substats": [
+        {
+          "key": "enerRech_",
+          "value": 11.7,
+          "rolls": [
+            5.83,
+            5.83
+          ],
+          "efficiency": 89.96913580246914,
+          "accurateValue": 11.66
+        },
+        {
+          "key": "critRate_",
+          "value": 13.600000000000001,
+          "rolls": [
+            3.11,
+            3.5,
+            3.5,
+            3.5
+          ],
+          "efficiency": 87.46786632390744,
+          "accurateValue": 13.61
+        },
+        {
+          "key": "critDMG_",
+          "value": 7.8,
+          "rolls": [
+            7.77
+          ],
+          "efficiency": 100,
+          "accurateValue": 7.77
+        },
+        {
+          "key": "eleMas",
+          "value": 16,
+          "rolls": [
+            16.32
+          ],
+          "efficiency": 70.01287001287002,
+          "accurateValue": 16.32
+        }
+      ],
+      "id": "artifact_27",
+      "currentEfficiency": 77.75806743482646,
+      "maximumEfficiency": 77.75806743482646
+    },
+    "artifact_61": {
+      "setKey": "MaidenBeloved",
+      "numStars": 4,
+      "slotKey": "flower",
+      "level": 16,
+      "mainStatKey": "hp",
+      "substats": [
+        {
+          "key": "atk",
+          "value": 30
+        },
+        {
+          "key": "hp_",
+          "value": 4.2
+        },
+        {
+          "key": "critRate_",
+          "value": 5.6
+        },
+        {
+          "key": "enerRech_",
+          "value": 5.2
+        }
+      ],
+      "id": "artifact_61"
+    },
+    "artifact_58": {
+      "setKey": "MaidenBeloved",
+      "numStars": 5,
+      "slotKey": "flower",
+      "level": 20,
+      "mainStatKey": "hp",
+      "substats": [
+        {
+          "key": "eleMas",
+          "value": 16,
+          "rolls": [
+            16.32
+          ],
+          "efficiency": 70.01287001287002,
+          "accurateValue": 16.32
+        },
+        {
+          "key": "enerRech_",
+          "value": 27.200000000000003,
+          "rolls": [
+            5.18,
+            5.18,
+            5.18,
+            5.83,
+            5.83
+          ],
+          "efficiency": 83.95061728395059,
+          "accurateValue": 27.199999999999996
+        },
+        {
+          "key": "hp_",
+          "value": 4.1,
+          "rolls": [
+            4.08
+          ],
+          "efficiency": 69.9828473413379,
+          "accurateValue": 4.08
+        },
+        {
+          "key": "def_",
+          "value": 5.8,
+          "rolls": [
+            5.8
+          ],
+          "efficiency": 79.56104252400549,
+          "accurateValue": 5.8
+        }
+      ],
+      "id": "artifact_58",
+      "currentEfficiency": 71.03442736644071,
+      "maximumEfficiency": 71.03442736644071
+    },
+    "artifact_47": {
+      "setKey": "BlizzardStrayer",
+      "numStars": 5,
+      "slotKey": "flower",
+      "level": 20,
+      "mainStatKey": "hp",
+      "substats": [
+        {
+          "key": "atk",
+          "value": 58,
+          "rolls": [
+            19.45,
+            19.45,
+            19.45
+          ],
+          "efficiency": 100,
+          "accurateValue": 58.349999999999994
+        },
+        {
+          "key": "critDMG_",
+          "value": 13.200000000000001,
+          "rolls": [
+            6.22,
+            6.99
+          ],
+          "efficiency": 85.00643500643503,
+          "accurateValue": 13.21
+        },
+        {
+          "key": "enerRech_",
+          "value": 4.5,
+          "rolls": [
+            4.53
+          ],
+          "efficiency": 69.9074074074074,
+          "accurateValue": 4.53
+        },
+        {
+          "key": "critRate_",
+          "value": 9.7,
+          "rolls": [
+            3.11,
+            3.11,
+            3.5
+          ],
+          "efficiency": 83.2904884318766,
+          "accurateValue": 9.719999999999999
+        }
+      ],
+      "id": "artifact_47",
+      "currentEfficiency": 87.75463807954526,
+      "maximumEfficiency": 87.75463807954526
+    },
+    "artifact_9": {
+      "setKey": "BloodstainedChivalry",
+      "numStars": 5,
+      "slotKey": "goblet",
+      "level": 20,
+      "mainStatKey": "physical_dmg_",
+      "substats": [
+        {
+          "key": "atk",
+          "value": 37,
+          "rolls": [
+            17.51,
+            19.45
+          ],
+          "efficiency": 95.01285347043702,
+          "accurateValue": 36.96
+        },
+        {
+          "key": "hp",
+          "value": 239,
+          "rolls": [
+            239
+          ],
+          "efficiency": 80,
+          "accurateValue": 239
+        },
+        {
+          "key": "atk_",
+          "value": 19.2,
+          "rolls": [
+            4.66,
+            4.66,
+            4.66,
+            5.25
+          ],
+          "efficiency": 82.46140651801029,
+          "accurateValue": 19.23
+        },
+        {
+          "key": "enerRech_",
+          "value": 4.5,
+          "rolls": [
+            4.53
+          ],
+          "efficiency": 69.9074074074074,
+          "accurateValue": 4.53
+        }
+      ],
+      "id": "artifact_9",
+      "currentEfficiency": 74.41986004670252,
+      "maximumEfficiency": 74.41986004670252
+    },
+    "artifact_60": {
+      "setKey": "ViridescentVenerer",
+      "numStars": 5,
+      "slotKey": "flower",
+      "level": 16,
+      "mainStatKey": "hp",
+      "substats": [
+        {
+          "key": "def",
+          "value": 19
+        },
+        {
+          "key": "atk",
+          "value": 51
+        },
+        {
+          "key": "critDMG_",
+          "value": 6.200000000000001
+        },
+        {
+          "key": "atk_",
+          "value": 10.5
+        }
+      ],
+      "id": "artifact_60"
+    },
+    "artifact_72": {
+      "setKey": "HeartOfDepth",
+      "numStars": 5,
+      "slotKey": "circlet",
+      "level": 16,
+      "mainStatKey": "eleMas",
+      "substats": [
+        {
+          "key": "enerRech_",
+          "value": 6.5
+        },
+        {
+          "key": "def",
+          "value": 60
+        },
+        {
+          "key": "atk_",
+          "value": 11.1
+        },
+        {
+          "key": "hp",
+          "value": 209
+        }
+      ],
+      "id": "artifact_72"
+    },
+    "artifact_3": {
+      "setKey": "HeartOfDepth",
+      "numStars": 5,
+      "slotKey": "goblet",
+      "level": 20,
+      "mainStatKey": "pyro_dmg_",
+      "substats": [
+        {
+          "key": "hp_",
+          "value": 9.3,
+          "rolls": [
+            4.66,
+            4.66
+          ],
+          "efficiency": 79.93138936535163,
+          "accurateValue": 9.32
+        },
+        {
+          "key": "critDMG_",
+          "value": 23.3,
+          "rolls": [
+            7.77,
+            7.77,
+            7.77
+          ],
+          "efficiency": 100,
+          "accurateValue": 23.31
+        },
+        {
+          "key": "atk",
+          "value": 31,
+          "rolls": [
+            15.56,
+            15.56
+          ],
+          "efficiency": 80,
+          "accurateValue": 31.12
+        },
+        {
+          "key": "critRate_",
+          "value": 2.7,
+          "rolls": [
+            2.72
+          ],
+          "efficiency": 69.9228791773779,
+          "accurateValue": 2.72
+        }
+      ],
+      "id": "artifact_3",
+      "currentEfficiency": 76.64285087867569,
+      "maximumEfficiency": 76.64285087867569
+    },
+    "artifact_28": {
+      "setKey": "WanderersTroupe",
+      "numStars": 5,
+      "slotKey": "plume",
+      "level": 20,
+      "mainStatKey": "atk",
+      "substats": [
+        {
+          "key": "critDMG_",
+          "value": 13.200000000000001,
+          "rolls": [
+            6.22,
+            6.99
+          ],
+          "efficiency": 85.00643500643503,
+          "accurateValue": 13.21
+        },
+        {
+          "key": "def",
+          "value": 60,
+          "rolls": [
+            18.52,
+            20.83,
+            20.83
+          ],
+          "efficiency": 86.65226781857451,
+          "accurateValue": 60.17999999999999
+        },
+        {
+          "key": "critRate_",
+          "value": 5.8,
+          "rolls": [
+            2.72,
+            3.11
+          ],
+          "efficiency": 74.93573264781492,
+          "accurateValue": 5.83
+        },
+        {
+          "key": "atk_",
+          "value": 4.1,
+          "rolls": [
+            4.08
+          ],
+          "efficiency": 69.9828473413379,
+          "accurateValue": 4.08
+        }
+      ],
+      "id": "artifact_28",
+      "currentEfficiency": 72.20266512284014,
+      "maximumEfficiency": 72.20266512284014
+    },
+    "artifact_8": {
+      "setKey": "BloodstainedChivalry",
+      "numStars": 5,
+      "slotKey": "goblet",
+      "level": 20,
+      "mainStatKey": "pyro_dmg_",
+      "substats": [
+        {
+          "key": "eleMas",
+          "value": 37,
+          "rolls": [
+            18.65,
+            18.65
+          ],
+          "efficiency": 80.00858000858001,
+          "accurateValue": 37.3
+        },
+        {
+          "key": "atk_",
+          "value": 10.5,
+          "rolls": [
+            4.66,
+            5.83
+          ],
+          "efficiency": 89.96569468267582,
+          "accurateValue": 10.49
+        },
+        {
+          "key": "critRate_",
+          "value": 10.5,
+          "rolls": [
+            3.5,
+            3.5,
+            3.5
+          ],
+          "efficiency": 89.97429305912597,
+          "accurateValue": 10.5
+        },
+        {
+          "key": "def",
+          "value": 23,
+          "rolls": [
+            23.15
+          ],
+          "efficiency": 100,
+          "accurateValue": 23.15
+        }
+      ],
+      "id": "artifact_8",
+      "currentEfficiency": 78.87460317332106,
+      "maximumEfficiency": 78.87460317332106
+    },
+    "artifact_75": {
+      "setKey": "HeartOfDepth",
+      "numStars": 5,
+      "slotKey": "sands",
+      "level": 20,
+      "mainStatKey": "eleMas",
+      "substats": [
+        {
+          "key": "atk",
+          "value": 29,
+          "rolls": [
+            13.62,
+            15.56
+          ],
+          "efficiency": 75.01285347043702,
+          "accurateValue": 29.18
+        },
+        {
+          "key": "def_",
+          "value": 12.400000000000002,
+          "rolls": [
+            5.8,
+            6.56
+          ],
+          "efficiency": 84.77366255144032,
+          "accurateValue": 12.36
+        },
+        {
+          "key": "enerRech_",
+          "value": 11.7,
+          "rolls": [
+            5.83,
+            5.83
+          ],
+          "efficiency": 89.96913580246914,
+          "accurateValue": 11.66
+        },
+        {
+          "key": "critDMG_",
+          "value": 21,
+          "rolls": [
+            6.99,
+            6.99,
+            6.99
+          ],
+          "efficiency": 89.96138996138995,
+          "accurateValue": 20.97
+        }
+      ],
+      "id": "artifact_75",
+      "currentEfficiency": 85.48838594809587,
+      "maximumEfficiency": 85.48838594809587
+    },
+    "artifact_25": {
+      "setKey": "HeartOfDepth",
+      "numStars": 5,
+      "slotKey": "plume",
+      "level": 20,
+      "mainStatKey": "atk",
+      "substats": [
+        {
+          "key": "critRate_",
+          "value": 10.5,
+          "rolls": [
+            3.5,
+            3.5,
+            3.5
+          ],
+          "efficiency": 89.97429305912597,
+          "accurateValue": 10.5
+        },
+        {
+          "key": "critDMG_",
+          "value": 13.200000000000001,
+          "rolls": [
+            6.22,
+            6.99
+          ],
+          "efficiency": 85.00643500643503,
+          "accurateValue": 13.21
+        },
+        {
+          "key": "atk_",
+          "value": 9.3,
+          "rolls": [
+            4.66,
+            4.66
+          ],
+          "efficiency": 79.93138936535163,
+          "accurateValue": 9.32
+        },
+        {
+          "key": "hp",
+          "value": 269,
+          "rolls": [
+            268.88
+          ],
+          "efficiency": 90.00167364016737,
+          "accurateValue": 268.88
+        }
+      ],
+      "id": "artifact_25",
+      "currentEfficiency": 76.64446684012428,
+      "maximumEfficiency": 76.64446684012428
+    },
+    "artifact_77": {
+      "setKey": "MaidenBeloved",
+      "numStars": 5,
+      "slotKey": "sands",
+      "level": 20,
+      "mainStatKey": "atk_",
+      "substats": [
+        {
+          "key": "eleMas",
+          "value": 37,
+          "rolls": [
+            18.65,
+            18.65
+          ],
+          "efficiency": 80.00858000858001,
+          "accurateValue": 37.3
+        },
+        {
+          "key": "critDMG_",
+          "value": 24.9,
+          "rolls": [
+            5.44,
+            5.44,
+            6.99,
+            6.99
+          ],
+          "efficiency": 79.98712998712999,
+          "accurateValue": 24.86
+        },
+        {
+          "key": "critRate_",
+          "value": 3.1000000000000005,
+          "rolls": [
+            3.11
+          ],
+          "efficiency": 79.94858611825192,
+          "accurateValue": 3.11
+        },
+        {
+          "key": "hp_",
+          "value": 9.9,
+          "rolls": [
+            4.66,
+            5.25
+          ],
+          "efficiency": 84.99142367066895,
+          "accurateValue": 9.91
+        }
+      ],
+      "id": "artifact_77",
+      "currentEfficiency": 81.09967926947442,
+      "maximumEfficiency": 81.09967926947442
+    },
+    "artifact_41": {
+      "setKey": "HeartOfDepth",
+      "numStars": 5,
+      "slotKey": "flower",
+      "level": 20,
+      "mainStatKey": "hp",
+      "substats": [
+        {
+          "key": "def",
+          "value": 39,
+          "rolls": [
+            18.52,
+            20.83
+          ],
+          "efficiency": 84.98920086393088,
+          "accurateValue": 39.349999999999994
+        },
+        {
+          "key": "eleMas",
+          "value": 16,
+          "rolls": [
+            16.32
+          ],
+          "efficiency": 70.01287001287002,
+          "accurateValue": 16.32
+        },
+        {
+          "key": "critRate_",
+          "value": 10.1,
+          "rolls": [
+            3.11,
+            3.5,
+            3.5
+          ],
+          "efficiency": 86.63239074550128,
+          "accurateValue": 10.11
+        },
+        {
+          "key": "critDMG_",
+          "value": 20.2,
+          "rolls": [
+            6.22,
+            6.99,
+            6.99
+          ],
+          "efficiency": 86.65808665808667,
+          "accurateValue": 20.200000000000003
+        }
+      ],
+      "id": "artifact_41",
+      "currentEfficiency": 84.42918932794396,
+      "maximumEfficiency": 84.42918932794396
+    },
+    "artifact_81": {
+      "setKey": "WanderersTroupe",
+      "numStars": 5,
+      "slotKey": "sands",
+      "level": 20,
+      "mainStatKey": "atk_",
+      "substats": [
+        {
+          "key": "critRate_",
+          "value": 3.5000000000000004,
+          "rolls": [
+            3.5
+          ],
+          "efficiency": 89.97429305912597,
+          "accurateValue": 3.5
+        },
+        {
+          "key": "critDMG_",
+          "value": 19.4,
+          "rolls": [
+            5.44,
+            6.99,
+            6.99
+          ],
+          "efficiency": 83.31188331188332,
+          "accurateValue": 19.42
+        },
+        {
+          "key": "eleMas",
+          "value": 33,
+          "rolls": [
+            16.32,
+            16.32
+          ],
+          "efficiency": 70.01287001287002,
+          "accurateValue": 32.64
+        },
+        {
+          "key": "hp",
+          "value": 448,
+          "rolls": [
+            209.13,
+            239
+          ],
+          "efficiency": 75.00083682008368,
+          "accurateValue": 448.13
+        }
+      ],
+      "id": "artifact_81",
+      "currentEfficiency": 69.99303962896482,
+      "maximumEfficiency": 69.99303962896482
+    },
+    "artifact_84": {
+      "setKey": "GladiatorsFinale",
+      "numStars": 5,
+      "slotKey": "sands",
+      "level": 20,
+      "mainStatKey": "atk_",
+      "substats": [
+        {
+          "key": "def_",
+          "value": 7.3,
+          "rolls": [
+            7.29
+          ],
+          "efficiency": 100,
+          "accurateValue": 7.29
+        },
+        {
+          "key": "critDMG_",
+          "value": 19.4,
+          "rolls": [
+            5.44,
+            6.99,
+            6.99
+          ],
+          "efficiency": 83.31188331188332,
+          "accurateValue": 19.42
+        },
+        {
+          "key": "hp_",
+          "value": 14.6,
+          "rolls": [
+            4.66,
+            4.66,
+            5.25
+          ],
+          "efficiency": 83.30474556889651,
+          "accurateValue": 14.57
+        },
+        {
+          "key": "hp",
+          "value": 239,
+          "rolls": [
+            239
+          ],
+          "efficiency": 80,
+          "accurateValue": 239
+        }
+      ],
+      "id": "artifact_84",
+      "currentEfficiency": 75.53887629359328,
+      "maximumEfficiency": 75.53887629359328
+    },
+    "artifact_24": {
+      "setKey": "Instructor",
+      "numStars": 4,
+      "slotKey": "goblet",
+      "level": 16,
+      "mainStatKey": "electro_dmg_",
+      "substats": [
+        {
+          "key": "atk",
+          "value": 30
+        },
+        {
+          "key": "atk_",
+          "value": 7.5
+        },
+        {
+          "key": "critRate_",
+          "value": 2.2
+        },
+        {
+          "key": "hp",
+          "value": 239
+        }
+      ],
+      "id": "artifact_24"
+    },
+    "artifact_88": {
+      "setKey": "NoblesseOblige",
+      "numStars": 5,
+      "slotKey": "sands",
+      "level": 20,
+      "mainStatKey": "hp_",
+      "substats": [
+        {
+          "key": "atk",
+          "value": 35,
+          "rolls": [
+            15.56,
+            19.45
+          ],
+          "efficiency": 90
+        },
+        {
+          "key": "hp",
+          "value": 269,
+          "rolls": [
+            268.88
+          ],
+          "efficiency": 90.00167364016737
+        },
+        {
+          "key": "def_",
+          "value": 12.400000000000002,
+          "rolls": [
+            5.8,
+            6.56
+          ],
+          "efficiency": 84.77366255144032
+        },
+        {
+          "key": "critRate_",
+          "value": 3.1000000000000005,
+          "rolls": [
+            3.11
+          ],
+          "efficiency": 79.94858611825192
+        }
+      ],
+      "id": "artifact_88"
+    },
+    "artifact_68": {
+      "setKey": "ThunderingFury",
+      "numStars": 5,
+      "slotKey": "circlet",
+      "level": 20,
+      "mainStatKey": "critDMG_",
+      "substats": [
+        {
+          "key": "def",
+          "value": 16,
+          "rolls": [
+            16.2
+          ],
+          "efficiency": 69.97840172786177,
+          "accurateValue": 16.2
+        },
+        {
+          "key": "critRate_",
+          "value": 7.400000000000001,
+          "rolls": [
+            3.5,
+            3.89
+          ],
+          "efficiency": 94.98714652956298,
+          "accurateValue": 7.390000000000001
+        },
+        {
+          "key": "atk",
+          "value": 19,
+          "rolls": [
+            19.45
+          ],
+          "efficiency": 100,
+          "accurateValue": 19.45
+        },
+        {
+          "key": "hp_",
+          "value": 16.9,
+          "rolls": [
+            4.08,
+            4.08,
+            4.08,
+            4.66
+          ],
+          "efficiency": 72.46998284734133,
+          "accurateValue": 16.9
+        }
+      ],
+      "id": "artifact_68",
+      "currentEfficiency": 72.2036251307059,
+      "maximumEfficiency": 72.2036251307059
+    },
+    "artifact_71": {
+      "setKey": "BlizzardStrayer",
+      "numStars": 5,
+      "slotKey": "circlet",
+      "level": 20,
+      "mainStatKey": "critDMG_",
+      "substats": [
+        {
+          "key": "enerRech_",
+          "value": 10.4,
+          "rolls": [
+            5.18,
+            5.18
+          ],
+          "efficiency": 79.93827160493827,
+          "accurateValue": 10.36
+        },
+        {
+          "key": "critRate_",
+          "value": 6.200000000000001,
+          "rolls": [
+            3.11,
+            3.11
+          ],
+          "efficiency": 79.94858611825192,
+          "accurateValue": 6.22
+        },
+        {
+          "key": "atk_",
+          "value": 9.9,
+          "rolls": [
+            4.66,
+            5.25
+          ],
+          "efficiency": 84.99142367066895,
+          "accurateValue": 9.91
+        },
+        {
+          "key": "def",
+          "value": 42,
+          "rolls": [
+            20.83,
+            20.83
+          ],
+          "efficiency": 89.97840172786177,
+          "accurateValue": 41.66
+        }
+      ],
+      "id": "artifact_71",
+      "currentEfficiency": 74.4125962492713,
+      "maximumEfficiency": 74.4125962492713
+    },
+    "artifact_56": {
+      "setKey": "ViridescentVenerer",
+      "numStars": 5,
+      "slotKey": "flower",
+      "level": 20,
+      "mainStatKey": "hp",
+      "substats": [
+        {
+          "key": "def",
+          "value": 16,
+          "rolls": [
+            16.2
+          ],
+          "efficiency": 69.97840172786177,
+          "accurateValue": 16.2
+        },
+        {
+          "key": "atk",
+          "value": 39,
+          "rolls": [
+            19.45,
+            19.45
+          ],
+          "efficiency": 100,
+          "accurateValue": 38.9
+        },
+        {
+          "key": "eleMas",
+          "value": 35,
+          "rolls": [
+            16.32,
+            18.65
+          ],
+          "efficiency": 75.01072501072501,
+          "accurateValue": 34.97
+        },
+        {
+          "key": "def_",
+          "value": 18.2,
+          "rolls": [
+            5.8,
+            5.8,
+            6.56
+          ],
+          "efficiency": 83.03612254229537,
+          "accurateValue": 18.16
+        }
+      ],
+      "id": "artifact_56",
+      "currentEfficiency": 74.34535770846644,
+      "maximumEfficiency": 74.34535770846644
+    },
+    "artifact_80": {
+      "setKey": "CrimsonWitchOfFlames",
+      "numStars": 5,
+      "slotKey": "sands",
+      "level": 20,
+      "mainStatKey": "atk_",
+      "substats": [
+        {
+          "key": "enerRech_",
+          "value": 11,
+          "rolls": [
+            5.18,
+            5.83
+          ],
+          "efficiency": 84.9537037037037,
+          "accurateValue": 11.01
+        },
+        {
+          "key": "critDMG_",
+          "value": 12.400000000000002,
+          "rolls": [
+            5.44,
+            6.99
+          ],
+          "efficiency": 79.98712998712999,
+          "accurateValue": 12.43
+        },
+        {
+          "key": "hp_",
+          "value": 11.1,
+          "rolls": [
+            5.25,
+            5.83
+          ],
+          "efficiency": 95.02572898799315,
+          "accurateValue": 11.08
+        },
+        {
+          "key": "atk",
+          "value": 31,
+          "rolls": [
+            15.56,
+            15.56
+          ],
+          "efficiency": 80,
+          "accurateValue": 31.12
+        }
+      ],
+      "id": "artifact_80",
+      "currentEfficiency": 75.54812503973929,
+      "maximumEfficiency": 75.54812503973929
+    },
+    "artifact_85": {
+      "setKey": "BlizzardStrayer",
+      "numStars": 5,
+      "slotKey": "sands",
+      "level": 20,
+      "mainStatKey": "atk_",
+      "substats": [
+        {
+          "key": "critRate_",
+          "value": 8.6,
+          "rolls": [
+            2.72,
+            2.72,
+            3.11
+          ],
+          "efficiency": 73.26478149100257,
+          "accurateValue": 8.55
+        },
+        {
+          "key": "critDMG_",
+          "value": 7.8,
+          "rolls": [
+            7.77
+          ],
+          "efficiency": 100,
+          "accurateValue": 7.77
+        },
+        {
+          "key": "eleMas",
+          "value": 56,
+          "rolls": [
+            18.65,
+            18.65,
+            18.65
+          ],
+          "efficiency": 80.00858000858001,
+          "accurateValue": 55.949999999999996
+        },
+        {
+          "key": "def_",
+          "value": 5.8,
+          "rolls": [
+            5.8
+          ],
+          "efficiency": 79.56104252400549,
+          "accurateValue": 5.8
+        }
+      ],
+      "id": "artifact_85",
+      "currentEfficiency": 71.04234744697258,
+      "maximumEfficiency": 71.04234744697258
+    },
+    "artifact_23": {
+      "setKey": "Instructor",
+      "numStars": 4,
+      "slotKey": "goblet",
+      "level": 16,
+      "mainStatKey": "eleMas",
+      "substats": [
+        {
+          "key": "enerRech_",
+          "value": 8.8
+        },
+        {
+          "key": "hp",
+          "value": 382
+        },
+        {
+          "key": "atk_",
+          "value": 3.7000000000000006
+        },
+        {
+          "key": "def",
+          "value": 13
+        }
+      ],
+      "id": "artifact_23"
+    },
+    "artifact_57": {
+      "setKey": "GladiatorsFinale",
+      "numStars": 5,
+      "slotKey": "flower",
+      "level": 20,
+      "mainStatKey": "hp",
+      "substats": [
+        {
+          "key": "enerRech_",
+          "value": 11,
+          "rolls": [
+            5.18,
+            5.83
+          ],
+          "efficiency": 84.9537037037037,
+          "accurateValue": 11.01
+        },
+        {
+          "key": "atk_",
+          "value": 9.3,
+          "rolls": [
+            4.66,
+            4.66
+          ],
+          "efficiency": 79.93138936535163,
+          "accurateValue": 9.32
+        },
+        {
+          "key": "atk",
+          "value": 49,
+          "rolls": [
+            15.56,
+            15.56,
+            17.51
+          ],
+          "efficiency": 83.3419023136247,
+          "accurateValue": 48.63
+        },
+        {
+          "key": "critRate_",
+          "value": 3.1000000000000005,
+          "rolls": [
+            3.11
+          ],
+          "efficiency": 79.94858611825192,
+          "accurateValue": 3.11
+        }
+      ],
+      "id": "artifact_57",
+      "currentEfficiency": 73.30494213302629,
+      "maximumEfficiency": 73.30494213302629
+    },
+    "artifact_5": {
+      "setKey": "HeartOfDepth",
+      "numStars": 5,
+      "slotKey": "goblet",
+      "level": 20,
+      "mainStatKey": "hydro_dmg_",
+      "substats": [
+        {
+          "key": "critDMG_",
+          "value": 10.9,
+          "rolls": [
+            5.44,
+            5.44
+          ],
+          "efficiency": 70.01287001287002,
+          "accurateValue": 10.88
+        },
+        {
+          "key": "hp_",
+          "value": 5.3,
+          "rolls": [
+            5.25
+          ],
+          "efficiency": 90.05145797598628,
+          "accurateValue": 5.25
+        },
+        {
+          "key": "hp",
+          "value": 807,
+          "rolls": [
+            239,
+            268.88,
+            298.75
+          ],
+          "efficiency": 90.0005578800558,
+          "accurateValue": 806.63
+        },
+        {
+          "key": "eleMas",
+          "value": 40,
+          "rolls": [
+            18.65,
+            20.98
+          ],
+          "efficiency": 85.006435006435,
+          "accurateValue": 39.629999999999995
+        }
+      ],
+      "id": "artifact_5",
+      "currentEfficiency": 74.45463796164042,
+      "maximumEfficiency": 74.45463796164042
+    },
+    "artifact_34": {
+      "setKey": "BlizzardStrayer",
+      "numStars": 5,
+      "slotKey": "plume",
+      "level": 20,
+      "mainStatKey": "atk",
+      "substats": [
+        {
+          "key": "critRate_",
+          "value": 9.3,
+          "rolls": [
+            3.11,
+            3.11,
+            3.11
+          ],
+          "efficiency": 79.94858611825192,
+          "accurateValue": 9.33
+        },
+        {
+          "key": "critDMG_",
+          "value": 14.000000000000002,
+          "rolls": [
+            6.99,
+            6.99
+          ],
+          "efficiency": 89.96138996138997,
+          "accurateValue": 13.98
+        },
+        {
+          "key": "def",
+          "value": 42,
+          "rolls": [
+            20.83,
+            20.83
+          ],
+          "efficiency": 89.97840172786177,
+          "accurateValue": 41.66
+        },
+        {
+          "key": "atk_",
+          "value": 5.3,
+          "rolls": [
+            5.25
+          ],
+          "efficiency": 90.05145797598628,
+          "accurateValue": 5.25
+        }
+      ],
+      "id": "artifact_34",
+      "currentEfficiency": 76.64186663436061,
+      "maximumEfficiency": 76.64186663436061
+    },
+    "artifact_90": {
+      "setKey": "MaidenBeloved",
+      "numStars": 4,
+      "slotKey": "sands",
+      "level": 16,
+      "mainStatKey": "hp_",
+      "substats": [
+        {
+          "key": "enerRech_",
+          "value": 8.8
+        },
+        {
+          "key": "critRate_",
+          "value": 5.3
+        },
+        {
+          "key": "atk",
+          "value": 16
+        },
+        {
+          "key": "hp",
+          "value": 239
+        }
+      ],
+      "id": "artifact_90"
+    },
+    "artifact_79": {
+      "setKey": "ThunderingFury",
+      "numStars": 5,
+      "slotKey": "sands",
+      "level": 20,
+      "mainStatKey": "atk_",
+      "substats": [
+        {
+          "key": "atk",
+          "value": 31,
+          "rolls": [
+            15.56,
+            15.56
+          ],
+          "efficiency": 80,
+          "accurateValue": 31.12
+        },
+        {
+          "key": "critRate_",
+          "value": 13.600000000000001,
+          "rolls": [
+            3.11,
+            3.5,
+            3.5,
+            3.5
+          ],
+          "efficiency": 87.46786632390744,
+          "accurateValue": 13.61
+        },
+        {
+          "key": "def_",
+          "value": 5.8,
+          "rolls": [
+            5.8
+          ],
+          "efficiency": 79.56104252400549,
+          "accurateValue": 5.8
+        },
+        {
+          "key": "critDMG_",
+          "value": 7.000000000000001,
+          "rolls": [
+            6.99
+          ],
+          "efficiency": 89.96138996138997,
+          "accurateValue": 6.99
+        }
+      ],
+      "id": "artifact_79",
+      "currentEfficiency": 75.48821086455835,
+      "maximumEfficiency": 75.48821086455835
+    },
+    "artifact_52": {
+      "setKey": "NoblesseOblige",
+      "numStars": 5,
+      "slotKey": "flower",
+      "level": 20,
+      "mainStatKey": "atk",
+      "substats": [
+        {
+          "key": "hp",
+          "value": 448,
+          "rolls": [
+            209.13,
+            239
+          ],
+          "efficiency": 75.00083682008368,
+          "accurateValue": 448.13
+        },
+        {
+          "key": "critRate_",
+          "value": 2.7,
+          "rolls": [
+            2.72
+          ],
+          "efficiency": 69.9228791773779,
+          "accurateValue": 2.72
+        },
+        {
+          "key": "critDMG_",
+          "value": 13.200000000000001,
+          "rolls": [
+            6.22,
+            6.99
+          ],
+          "efficiency": 85.00643500643503,
+          "accurateValue": 13.21
+        },
+        {
+          "key": "enerRech_",
+          "value": 16.8,
+          "rolls": [
+            5.18,
+            5.83,
+            5.83
+          ],
+          "efficiency": 86.62551440329217,
+          "accurateValue": 16.84
+        }
+      ],
+      "id": "artifact_52",
+      "currentEfficiency": 72.20155178225464,
+      "maximumEfficiency": 72.20155178225464
+    },
+    "artifact_10": {
+      "setKey": "NoblesseOblige",
+      "numStars": 5,
+      "slotKey": "goblet",
+      "level": 20,
+      "mainStatKey": "anemo_dmg_",
+      "substats": [
+        {
+          "key": "eleMas",
+          "value": 23,
+          "rolls": [
+            23.31
+          ],
+          "efficiency": 100,
+          "accurateValue": 23.31
+        },
+        {
+          "key": "enerRech_",
+          "value": 11,
+          "rolls": [
+            5.18,
+            5.83
+          ],
+          "efficiency": 84.9537037037037,
+          "accurateValue": 11.01
+        },
+        {
+          "key": "atk",
+          "value": 33,
+          "rolls": [
+            15.56,
+            17.51
+          ],
+          "efficiency": 85.01285347043702,
+          "accurateValue": 33.07
+        },
+        {
+          "key": "hp",
+          "value": 777,
+          "rolls": [
+            239,
+            239,
+            298.75
+          ],
+          "efficiency": 86.66666666666667,
+          "accurateValue": 776.75
+        }
+      ],
+      "id": "artifact_10",
+      "currentEfficiency": 77.77034603869794,
+      "maximumEfficiency": 77.77034603869794
+    },
+    "artifact_62": {
+      "setKey": "HeartOfDepth",
+      "numStars": 5,
+      "slotKey": "circlet",
+      "level": 20,
+      "mainStatKey": "critDMG_",
+      "substats": [
+        {
+          "key": "def_",
+          "value": 16,
+          "rolls": [
+            5.1,
+            5.1,
+            5.8
+          ],
+          "efficiency": 73.15957933241883,
+          "accurateValue": 16
+        },
+        {
+          "key": "eleMas",
+          "value": 40,
+          "rolls": [
+            18.65,
+            20.98
+          ],
+          "efficiency": 85.006435006435,
+          "accurateValue": 39.629999999999995
+        },
+        {
+          "key": "hp",
+          "value": 538,
+          "rolls": [
+            239,
+            298.75
+          ],
+          "efficiency": 90,
+          "accurateValue": 537.75
+        },
+        {
+          "key": "critRate_",
+          "value": 6.200000000000001,
+          "rolls": [
+            3.11,
+            3.11
+          ],
+          "efficiency": 79.94858611825192,
+          "accurateValue": 6.22
+        }
+      ],
+      "id": "artifact_62",
+      "currentEfficiency": 81.04319780518115,
+      "maximumEfficiency": 81.04319780518115
+    },
+    "artifact_33": {
+      "setKey": "GladiatorsFinale",
+      "numStars": 5,
+      "slotKey": "plume",
+      "level": 20,
+      "mainStatKey": "atk",
+      "substats": [
+        {
+          "key": "critDMG_",
+          "value": 14.000000000000002,
+          "rolls": [
+            6.99,
+            6.99
+          ],
+          "efficiency": 89.96138996138997,
+          "accurateValue": 13.98
+        },
+        {
+          "key": "hp",
+          "value": 508,
+          "rolls": [
+            239,
+            268.88
+          ],
+          "efficiency": 85.00083682008368,
+          "accurateValue": 507.88
+        },
+        {
+          "key": "critRate_",
+          "value": 6.200000000000001,
+          "rolls": [
+            3.11,
+            3.11
+          ],
+          "efficiency": 79.94858611825192,
+          "accurateValue": 6.22
+        },
+        {
+          "key": "enerRech_",
+          "value": 12.3,
+          "rolls": [
+            5.83,
+            6.48
+          ],
+          "efficiency": 94.98456790123456,
+          "accurateValue": 12.31
+        }
+      ],
+      "id": "artifact_33",
+      "currentEfficiency": 77.75452906688002,
+      "maximumEfficiency": 77.75452906688002
+    },
+    "artifact_66": {
+      "setKey": "NoblesseOblige",
+      "numStars": 5,
+      "slotKey": "circlet",
+      "level": 20,
+      "mainStatKey": "heal_",
+      "substats": [
+        {
+          "key": "def",
+          "value": 44,
+          "rolls": [
+            20.83,
+            23.15
+          ],
+          "efficiency": 94.98920086393089,
+          "accurateValue": 43.98
+        },
+        {
+          "key": "hp",
+          "value": 418,
+          "rolls": [
+            209.13,
+            209.13
+          ],
+          "efficiency": 70.00167364016735,
+          "accurateValue": 418.26
+        },
+        {
+          "key": "hp_",
+          "value": 8.7,
+          "rolls": [
+            4.08,
+            4.66
+          ],
+          "efficiency": 74.95711835334477,
+          "accurateValue": 8.74
+        },
+        {
+          "key": "def_",
+          "value": 11.7,
+          "rolls": [
+            5.1,
+            6.56
+          ],
+          "efficiency": 79.97256515775034,
+          "accurateValue": 11.66
+        }
+      ],
+      "id": "artifact_66",
+      "currentEfficiency": 71.09345733670963,
+      "maximumEfficiency": 71.09345733670963
+    },
+    "artifact_11": {
+      "setKey": "ThunderingFury",
+      "numStars": 5,
+      "slotKey": "goblet",
+      "level": 20,
+      "mainStatKey": "atk_",
+      "substats": [
+        {
+          "key": "critDMG_",
+          "value": 7.8,
+          "rolls": [
+            7.77
+          ],
+          "efficiency": 100,
+          "accurateValue": 7.77
+        },
+        {
+          "key": "critRate_",
+          "value": 10.1,
+          "rolls": [
+            3.11,
+            3.5,
+            3.5
+          ],
+          "efficiency": 86.63239074550128,
+          "accurateValue": 10.11
+        },
+        {
+          "key": "atk",
+          "value": 16,
+          "rolls": [
+            15.56
+          ],
+          "efficiency": 80,
+          "accurateValue": 15.56
+        },
+        {
+          "key": "eleMas",
+          "value": 56,
+          "rolls": [
+            18.65,
+            18.65,
+            18.65
+          ],
+          "efficiency": 80.00858000858001,
+          "accurateValue": 55.949999999999996
+        }
+      ],
+      "id": "artifact_11",
+      "currentEfficiency": 75.54699025136044,
+      "maximumEfficiency": 75.54699025136044
+    },
+    "artifact_39": {
+      "setKey": "MaidenBeloved",
+      "numStars": 4,
+      "slotKey": "plume",
+      "level": 16,
+      "mainStatKey": "atk",
+      "substats": [
+        {
+          "key": "atk_",
+          "value": 3.7000000000000006
+        },
+        {
+          "key": "hp_",
+          "value": 3.7000000000000006
+        },
+        {
+          "key": "def_",
+          "value": 9.9
+        },
+        {
+          "key": "critDMG_",
+          "value": 11.8
+        }
+      ],
+      "id": "artifact_39"
+    },
+    "artifact_74": {
+      "setKey": "CrimsonWitchOfFlames",
+      "numStars": 4,
+      "slotKey": "circlet",
+      "level": 16,
+      "mainStatKey": "critDMG_",
+      "substats": [
+        {
+          "key": "critRate_",
+          "value": 2.5
+        },
+        {
+          "key": "atk",
+          "value": 16
+        },
+        {
+          "key": "enerRech_",
+          "value": 5.2
+        },
+        {
+          "key": "def_",
+          "value": 16.3
+        }
+      ],
+      "id": "artifact_74"
+    },
+    "artifact_12": {
+      "setKey": "WanderersTroupe",
+      "numStars": 5,
+      "slotKey": "goblet",
+      "level": 20,
+      "mainStatKey": "atk_",
+      "substats": [
+        {
+          "key": "def",
+          "value": 58,
+          "rolls": [
+            16.2,
+            20.83,
+            20.83
+          ],
+          "efficiency": 83.31173506119511,
+          "accurateValue": 57.86
+        },
+        {
+          "key": "critRate_",
+          "value": 3.9,
+          "rolls": [
+            3.89
+          ],
+          "efficiency": 100,
+          "accurateValue": 3.89
+        },
+        {
+          "key": "critDMG_",
+          "value": 7.8,
+          "rolls": [
+            7.77
+          ],
+          "efficiency": 100,
+          "accurateValue": 7.77
+        },
+        {
+          "key": "eleMas",
+          "value": 65,
+          "rolls": [
+            20.98,
+            20.98,
+            23.31
+          ],
+          "efficiency": 93.33619333619335,
+          "accurateValue": 65.27
+        }
+      ],
+      "id": "artifact_12",
+      "currentEfficiency": 81.1048650213517,
+      "maximumEfficiency": 81.1048650213517
+    },
+    "artifact_67": {
+      "setKey": "ThunderingFury",
+      "numStars": 5,
+      "slotKey": "circlet",
+      "level": 20,
+      "mainStatKey": "critDMG_",
+      "substats": [
+        {
+          "key": "atk",
+          "value": 53,
+          "rolls": [
+            15.56,
+            17.51,
+            19.45
+          ],
+          "efficiency": 90.00856898029134,
+          "accurateValue": 52.519999999999996
+        },
+        {
+          "key": "critRate_",
+          "value": 3.9,
+          "rolls": [
+            3.89
+          ],
+          "efficiency": 100,
+          "accurateValue": 3.89
+        },
+        {
+          "key": "def",
+          "value": 44,
+          "rolls": [
+            20.83,
+            23.15
+          ],
+          "efficiency": 94.98920086393089,
+          "accurateValue": 43.98
+        },
+        {
+          "key": "atk_",
+          "value": 11.1,
+          "rolls": [
+            5.25,
+            5.83
+          ],
+          "efficiency": 95.02572898799315,
+          "accurateValue": 11.08
+        }
+      ],
+      "id": "artifact_67",
+      "currentEfficiency": 83.33950740496911,
+      "maximumEfficiency": 83.33950740496911
+    },
+    "artifact_35": {
+      "setKey": "WanderersTroupe",
+      "numStars": 5,
+      "slotKey": "plume",
+      "level": 17,
+      "mainStatKey": "atk",
+      "substats": [
+        {
+          "key": "hp",
+          "value": 508
+        },
+        {
+          "key": "critRate_",
+          "value": 3.5000000000000004
+        },
+        {
+          "key": "critDMG_",
+          "value": 6.200000000000001
+        },
+        {
+          "key": "atk_",
+          "value": 15.7
+        }
+      ],
+      "id": "artifact_35"
+    },
+    "artifact_32": {
+      "setKey": "GladiatorsFinale",
+      "numStars": 5,
+      "slotKey": "plume",
+      "level": 20,
+      "mainStatKey": "atk",
+      "substats": [
+        {
+          "key": "critRate_",
+          "value": 9.7,
+          "rolls": [
+            3.11,
+            3.11,
+            3.5
+          ],
+          "efficiency": 83.2904884318766,
+          "accurateValue": 9.719999999999999
+        },
+        {
+          "key": "critDMG_",
+          "value": 7.000000000000001,
+          "rolls": [
+            6.99
+          ],
+          "efficiency": 89.96138996138997,
+          "accurateValue": 6.99
+        },
+        {
+          "key": "hp_",
+          "value": 11.1,
+          "rolls": [
+            5.25,
+            5.83
+          ],
+          "efficiency": 95.02572898799315,
+          "accurateValue": 11.08
+        },
+        {
+          "key": "eleMas",
+          "value": 35,
+          "rolls": [
+            16.32,
+            18.65
+          ],
+          "efficiency": 75.01072501072501,
+          "accurateValue": 34.97
+        }
+      ],
+      "id": "artifact_32",
+      "currentEfficiency": 75.54508480605067,
+      "maximumEfficiency": 75.54508480605067
+    },
+    "artifact_46": {
+      "setKey": "NoblesseOblige",
+      "numStars": 5,
+      "slotKey": "flower",
+      "level": 20,
+      "mainStatKey": "atk",
+      "substats": [
+        {
+          "key": "critRate_",
+          "value": 10.5
+        },
+        {
+          "key": "atk_",
+          "value": 4.7
+        },
+        {
+          "key": "enerRech_",
+          "value": 9.7
+        },
+        {
+          "key": "hp",
+          "value": 747
+        }
+      ],
+      "id": "artifact_46"
+    },
+    "artifact_63": {
+      "setKey": "TenacityOfTheMillelith",
+      "numStars": 5,
+      "slotKey": "circlet",
+      "level": 20,
+      "mainStatKey": "hp_",
+      "substats": [
+        {
+          "key": "critDMG_",
+          "value": 18.7
+        },
+        {
+          "key": "hp",
+          "value": 747
+        },
+        {
+          "key": "atk_",
+          "value": 4.1
+        },
+        {
+          "key": "eleMas",
+          "value": 23
+        }
+      ],
+      "id": "artifact_63"
+    },
+    "artifact_59": {
+      "setKey": "TenacityOfTheMillelith",
+      "numStars": 5,
+      "slotKey": "flower",
+      "level": 16,
+      "mainStatKey": "hp",
+      "substats": [
+        {
+          "key": "def",
+          "value": 21
+        },
+        {
+          "key": "atk",
+          "value": 37
+        },
+        {
+          "key": "hp_",
+          "value": 15.7
+        },
+        {
+          "key": "atk_",
+          "value": 4.7
+        }
+      ],
+      "id": "artifact_59"
+    },
+    "artifact_82": {
+      "setKey": "ViridescentVenerer",
+      "numStars": 5,
+      "slotKey": "sands",
+      "level": 20,
+      "mainStatKey": "eleMas",
+      "substats": [
+        {
+          "key": "atk",
+          "value": 54
+        },
+        {
+          "key": "def",
+          "value": 37
+        },
+        {
+          "key": "enerRech_",
+          "value": 4.5
+        },
+        {
+          "key": "atk_",
+          "value": 9.3
+        }
+      ],
+      "id": "artifact_82"
+    },
+    "artifact_42": {
+      "setKey": "ViridescentVenerer",
+      "numStars": 5,
+      "slotKey": "flower",
+      "level": 20,
+      "mainStatKey": "hp",
+      "substats": [
+        {
+          "key": "critDMG_",
+          "value": 11.7
+        },
+        {
+          "key": "def_",
+          "value": 19
+        },
+        {
+          "key": "atk_",
+          "value": 14.6
+        },
+        {
+          "key": "critRate_",
+          "value": 3.9
+        }
+      ],
+      "id": "artifact_42"
+    },
+    "artifact_4": {
+      "setKey": "NoblesseOblige",
+      "numStars": 5,
+      "slotKey": "goblet",
+      "level": 20,
+      "mainStatKey": "hp_",
+      "substats": [
+        {
+          "key": "enerRech_",
+          "value": 11
+        },
+        {
+          "key": "eleMas",
+          "value": 40
+        },
+        {
+          "key": "atk",
+          "value": 19
+        },
+        {
+          "key": "hp",
+          "value": 926
+        }
+      ],
+      "id": "artifact_4"
+    },
+    "artifact_14": {
+      "setKey": "ViridescentVenerer",
+      "numStars": 5,
+      "slotKey": "goblet",
+      "level": 20,
+      "mainStatKey": "eleMas",
+      "substats": [
+        {
+          "key": "atk",
+          "value": 29
+        },
+        {
+          "key": "hp_",
+          "value": 5.8
+        },
+        {
+          "key": "hp",
+          "value": 1016
+        },
+        {
+          "key": "atk_",
+          "value": 4.1
+        }
+      ],
+      "id": "artifact_14"
+    },
+    "artifact_21": {
+      "setKey": "GladiatorsFinale",
+      "numStars": 5,
+      "slotKey": "goblet",
+      "level": 20,
+      "mainStatKey": "hp_",
+      "substats": [
+        {
+          "key": "critDMG_",
+          "value": 15.5
+        },
+        {
+          "key": "atk",
+          "value": 16
+        },
+        {
+          "key": "hp",
+          "value": 538
+        },
+        {
+          "key": "enerRech_",
+          "value": 11.7
+        }
+      ],
+      "id": "artifact_21"
+    },
+    "artifact_69": {
+      "setKey": "ViridescentVenerer",
+      "numStars": 5,
+      "slotKey": "circlet",
+      "level": 20,
+      "mainStatKey": "critRate_",
+      "substats": [
+        {
+          "key": "hp",
+          "value": 269
+        },
+        {
+          "key": "critDMG_",
+          "value": 28.000000000000004
+        },
+        {
+          "key": "eleMas",
+          "value": 16
+        },
+        {
+          "key": "hp_",
+          "value": 11.1
+        }
+      ],
+      "id": "artifact_69"
+    },
+    "artifact_51": {
+      "setKey": "NoblesseOblige",
+      "numStars": 5,
+      "slotKey": "flower",
+      "level": 20,
+      "mainStatKey": "hp",
+      "substats": [
+        {
+          "key": "eleMas",
+          "value": 23
+        },
+        {
+          "key": "critRate_",
+          "value": 10.5
+        },
+        {
+          "key": "critDMG_",
+          "value": 13.200000000000001
+        },
+        {
+          "key": "enerRech_",
+          "value": 9.7
+        }
+      ],
+      "id": "artifact_51"
+    },
+    "artifact_37": {
+      "setKey": "MaidenBeloved",
+      "numStars": 5,
+      "slotKey": "plume",
+      "level": 16,
+      "mainStatKey": "atk",
+      "substats": [
+        {
+          "key": "enerRech_",
+          "value": 5.8
+        },
+        {
+          "key": "hp",
+          "value": 777
+        },
+        {
+          "key": "hp_",
+          "value": 9.9
+        },
+        {
+          "key": "eleMas",
+          "value": 23
+        }
+      ],
+      "id": "artifact_37"
+    },
+    "artifact_65": {
+      "setKey": "NoblesseOblige",
+      "numStars": 5,
+      "slotKey": "circlet",
+      "level": 20,
+      "mainStatKey": "eleMas",
+      "substats": [
+        {
+          "key": "atk_",
+          "value": 16.9
+        },
+        {
+          "key": "hp_",
+          "value": 5.8
+        },
+        {
+          "key": "def",
+          "value": 53
+        },
+        {
+          "key": "atk",
+          "value": 16
+        }
+      ],
+      "id": "artifact_65"
+    },
+    "artifact_20": {
+      "setKey": "BlizzardStrayer",
+      "numStars": 5,
+      "slotKey": "goblet",
+      "level": 20,
+      "mainStatKey": "cryo_dmg_",
+      "substats": [
+        {
+          "key": "def",
+          "value": 51
+        },
+        {
+          "key": "critRate_",
+          "value": 3.1000000000000005
+        },
+        {
+          "key": "eleMas",
+          "value": 56
+        },
+        {
+          "key": "hp",
+          "value": 239
+        }
+      ],
+      "id": "artifact_20"
+    },
+    "artifact_7": {
+      "setKey": "BloodstainedChivalry",
+      "numStars": 5,
+      "slotKey": "goblet",
+      "level": 20,
+      "mainStatKey": "physical_dmg_",
+      "substats": [
+        {
+          "key": "critDMG_",
+          "value": 10.9
+        },
+        {
+          "key": "critRate_",
+          "value": 10.1
+        },
+        {
+          "key": "atk_",
+          "value": 5.8
+        },
+        {
+          "key": "eleMas",
+          "value": 44
+        }
+      ],
+      "id": "artifact_7"
+    },
+    "artifact_87": {
+      "setKey": "GladiatorsFinale",
+      "numStars": 5,
+      "slotKey": "sands",
+      "level": 20,
+      "mainStatKey": "enerRech_",
+      "substats": [
+        {
+          "key": "critDMG_",
+          "value": 5.4
+        },
+        {
+          "key": "hp_",
+          "value": 10.5
+        },
+        {
+          "key": "critRate_",
+          "value": 6.200000000000001
+        },
+        {
+          "key": "hp",
+          "value": 478
+        }
+      ],
+      "id": "artifact_87"
+    },
+    "artifact_38": {
+      "setKey": "TenacityOfTheMillelith",
+      "numStars": 5,
+      "slotKey": "plume",
+      "level": 16,
+      "mainStatKey": "atk",
+      "substats": [
+        {
+          "key": "atk_",
+          "value": 4.7
+        },
+        {
+          "key": "hp",
+          "value": 538
+        },
+        {
+          "key": "hp_",
+          "value": 5.3
+        },
+        {
+          "key": "enerRech_",
+          "value": 18.1
+        }
+      ],
+      "id": "artifact_38"
+    },
+    "artifact_29": {
+      "setKey": "ViridescentVenerer",
+      "numStars": 5,
+      "slotKey": "plume",
+      "level": 20,
+      "mainStatKey": "atk",
+      "substats": [
+        {
+          "key": "critDMG_",
+          "value": 29.5
+        },
+        {
+          "key": "enerRech_",
+          "value": 5.8
+        },
+        {
+          "key": "hp_",
+          "value": 4.1
+        },
+        {
+          "key": "critRate_",
+          "value": 7.000000000000001
+        }
+      ],
+      "id": "artifact_29"
+    },
+    "artifact_89": {
+      "setKey": "TenacityOfTheMillelith",
+      "numStars": 4,
+      "slotKey": "sands",
+      "level": 16,
+      "mainStatKey": "hp_",
+      "substats": [
+        {
+          "key": "atk_",
+          "value": 4.2
+        },
+        {
+          "key": "atk",
+          "value": 16
+        },
+        {
+          "key": "critRate_",
+          "value": 5.6
+        },
+        {
+          "key": "def_",
+          "value": 9.9
+        }
+      ],
+      "id": "artifact_89"
+    },
+    "artifact_64": {
+      "setKey": "RetracingBolide",
+      "numStars": 5,
+      "slotKey": "circlet",
+      "level": 20,
+      "mainStatKey": "atk_",
+      "substats": [
+        {
+          "key": "hp",
+          "value": 209
+        },
+        {
+          "key": "eleMas",
+          "value": 35
+        },
+        {
+          "key": "atk",
+          "value": 31
+        },
+        {
+          "key": "def_",
+          "value": 19
+        }
+      ],
+      "id": "artifact_64"
+    },
+    "artifact_6": {
+      "setKey": "GladiatorsFinale",
+      "numStars": 5,
+      "slotKey": "goblet",
+      "level": 20,
+      "mainStatKey": "physical_dmg_",
+      "substats": [
+        {
+          "key": "atk_",
+          "value": 20.4
+        },
+        {
+          "key": "def_",
+          "value": 10.9
+        },
+        {
+          "key": "enerRech_",
+          "value": 4.5
+        },
+        {
+          "key": "critDMG_",
+          "value": 13.200000000000001
+        }
+      ],
+      "id": "artifact_6"
+    },
+    "artifact_50": {
+      "setKey": "NoblesseOblige",
+      "numStars": 5,
+      "slotKey": "flower",
+      "level": 20,
+      "mainStatKey": "hp",
+      "substats": [
+        {
+          "key": "def",
+          "value": 23
+        },
+        {
+          "key": "enerRech_",
+          "value": 18.8
+        },
+        {
+          "key": "hp_",
+          "value": 16.9
+        },
+        {
+          "key": "critRate_",
+          "value": 3.9
+        }
+      ],
+      "id": "artifact_50"
+    },
+    "artifact_36": {
+      "setKey": "ViridescentVenerer",
+      "numStars": 5,
+      "slotKey": "plume",
+      "level": 16,
+      "mainStatKey": "atk",
+      "substats": [
+        {
+          "key": "atk_",
+          "value": 4.7
+        },
+        {
+          "key": "critDMG_",
+          "value": 11.7
+        },
+        {
+          "key": "hp_",
+          "value": 9.9
+        },
+        {
+          "key": "critRate_",
+          "value": 5.8
+        }
+      ],
+      "id": "artifact_36"
+    },
+    "artifact_53": {
+      "setKey": "NoblesseOblige",
+      "numStars": 5,
+      "slotKey": "flower",
+      "level": 20,
+      "mainStatKey": "atk",
+      "substats": [
+        {
+          "key": "atk_",
+          "value": 9.9
+        },
+        {
+          "key": "enerRech_",
+          "value": 10.4
+        },
+        {
+          "key": "eleMas",
+          "value": 47
+        },
+        {
+          "key": "critDMG_",
+          "value": 14.800000000000002
+        }
+      ],
+      "id": "artifact_53"
+    },
+    "artifact_18": {
+      "setKey": "NoblesseOblige",
+      "numStars": 5,
+      "slotKey": "goblet",
+      "level": 17,
+      "mainStatKey": "eleMas",
+      "substats": [
+        {
+          "key": "hp",
+          "value": 837
+        },
+        {
+          "key": "enerRech_",
+          "value": 5.8
+        },
+        {
+          "key": "def",
+          "value": 44
+        },
+        {
+          "key": "critRate_",
+          "value": 7.000000000000001
+        }
+      ],
+      "id": "artifact_18"
+    },
+    "artifact_30": {
+      "setKey": "ViridescentVenerer",
+      "numStars": 5,
+      "slotKey": "plume",
+      "level": 20,
+      "mainStatKey": "atk",
+      "substats": [
+        {
+          "key": "eleMas",
+          "value": 40
+        },
+        {
+          "key": "hp_",
+          "value": 9.3
+        },
+        {
+          "key": "enerRech_",
+          "value": 19.4
+        },
+        {
+          "key": "hp",
+          "value": 269
+        }
+      ],
+      "id": "artifact_30"
+    },
+    "artifact_49": {
+      "setKey": "BloodstainedChivalry",
+      "numStars": 5,
+      "slotKey": "flower",
+      "level": 20,
+      "mainStatKey": "hp",
+      "substats": [
+        {
+          "key": "critRate_",
+          "value": 3.9
+        },
+        {
+          "key": "critDMG_",
+          "value": 19.4
+        },
+        {
+          "key": "eleMas",
+          "value": 42
+        },
+        {
+          "key": "enerRech_",
+          "value": 11
+        }
+      ],
+      "id": "artifact_49"
+    }
+  },
+  "artifactDisplay": {
+    "filterArtSetKey": "",
+    "filterStars": [
+      3,
+      4,
+      5
+    ],
+    "filterLevelLow": 0,
+    "filterLevelHigh": 20,
+    "filterSlotKey": "",
+    "filterMainStatKey": "",
+    "filterSubstats": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "filterLocation": "",
+    "filterLocked": "",
+    "ascending": false,
+    "sortType": "quality",
+    "maxNumArtifactsToDisplay": 50
+  },
+  "characterDisplay": {
+    "charIdToEdit": "ganyu",
+    "sortBy": "level",
+    "elementalFilter": "",
+    "weaponFilter": ""
+  },
+  "buildsDisplay": {
+    "characterKey": "ganyu",
+    "maxBuildsToShow": 25
+  }
+}
