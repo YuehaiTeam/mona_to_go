@@ -1,0 +1,68 @@
+export type StatKeys = keyof typeof statLookup
+export type SetKeys = keyof typeof setLookup
+export type SlotKeys = keyof typeof slotLookup
+
+export const statLookup = {
+    critical: 'critRate_',
+    criticalDamage: 'critDMG_',
+    attackStatic: 'atk',
+    attackPercentage: 'atk_',
+    elementalMastery: 'eleMas',
+    recharge: 'enerRech_',
+    lifeStatic: 'hp',
+    lifePercentage: 'hp_',
+    defendStatic: 'def',
+    defendPercentage: 'def_',
+    physicalBonus: 'physical_dmg_',
+    rockBonus: 'geo_dmg_',
+    cureEffect: 'heal_',
+    windBonus: 'anemo_dmg_',
+    iceBonus: 'cryo_dmg_',
+    waterBonus: 'hydro_dmg_',
+    fireBonus: 'pyro_dmg_',
+    thunderBonus: 'electro_dmg_',
+}
+
+export const slotLookup = {
+    head: 'circlet',
+    cup: 'goblet',
+    flower: 'flower',
+    sand: 'sands',
+    feather: 'plume',
+}
+
+export const setLookup = {
+    adventurer: 'Adventurer',
+    archaicPetra: 'ArchaicPetra',
+    berserker: 'Berserker',
+    blizzardStrayer: 'BlizzardStrayer',
+    bloodstainedChivalry: 'BloodstainedChivalry',
+    braveHeart: 'BraveHeart',
+    crimsonWitch: 'CrimsonWitchOfFlames',
+    defenderWill: 'DefendersWill',
+    gambler: 'Gambler',
+    gladiatorFinale: 'GladiatorsFinale',
+    heartOfDepth: 'HeartOfDepth',
+    instructor: 'Instructor',
+    lavaWalker: 'Lavawalker',
+    luckyDog: 'LuckyDog',
+    maidenBeloved: 'MaidenBeloved',
+    martialArtist: 'MartialArtist',
+    noblesseOblige: 'NoblesseOblige',
+    paleFlame: 'PaleFlame',
+    prayersForDestiny: 'PrayersForDestiny',
+    prayersForIllumination: 'PrayersForIllumination',
+    prayersForWisdom: 'PrayersForWisdom',
+    prayersToSpringtime: 'PrayersToSpringtime',
+    resolutionOfSojourner: 'ResolutionOfSojourner',
+    retracingBolide: 'RetracingBolide',
+    scholar: 'Scholar',
+    tenacityOfTheMillelith: 'TenacityOfTheMillelith',
+    exile: 'TheExile',
+    thunderingFury: 'ThunderingFury',
+    thunderSmoother: 'Thundersoother',
+    tinyMiracle: 'TinyMiracle',
+    travelingDoctor: 'TravelingDoctor',
+    viridescentVenerer: 'ViridescentVenerer',
+    wandererTroupe: 'WanderersTroupe',
+}

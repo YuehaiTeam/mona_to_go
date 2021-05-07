@@ -1,0 +1,2559 @@
+{
+  "version": 3,
+  "characterDatabase": {
+    "ganyu": {
+      "characterKey": "ganyu",
+      "levelKey": "L90",
+      "hitMode": "critHit",
+      "reactionMode": null,
+      "equippedArtifacts": {
+        "flower": "",
+        "plume": "",
+        "sands": "",
+        "goblet": "",
+        "circlet": ""
+      },
+      "conditionalValues": {
+        "character": {
+          "ganyu": {
+            "a1": [
+              1
+            ],
+            "c1": [
+              1
+            ]
+          }
+        },
+        "weapon": {
+          "AmosBow": {
+            "sw": [
+              3
+            ]
+          }
+        }
+      },
+      "baseStatOverrides": {},
+      "weapon": {
+        "key": "AmosBow",
+        "levelKey": "L90",
+        "refineIndex": 4,
+        "overrideMainVal": 0,
+        "overrideSubVal": 0
+      },
+      "talentLevelKeys": {
+        "auto": 9,
+        "skill": 7,
+        "burst": 8
+      },
+      "infusionAura": "",
+      "constellation": 6,
+      "buildSettings": {
+        "setFilters": [
+          {
+            "key": "",
+            "num": 0
+          },
+          {
+            "key": "",
+            "num": 0
+          },
+          {
+            "key": "",
+            "num": 0
+          }
+        ],
+        "statFilters": {},
+        "mainStatKeys": [
+          "",
+          "",
+          ""
+        ],
+        "optimizationTarget": "finalATK",
+        "mainStatAssumptionLevel": 0,
+        "useLockedArts": false,
+        "useEquippedArts": false,
+        "ascending": false
+      },
+      "artifactConditionals": [],
+      "talentConditionals": [
+        {
+          "srcKey": "auto",
+          "conditionalNum": 1,
+          "srcKey2": "UndividedHeart"
+        },
+        {
+          "srcKey": "auto",
+          "conditionalNum": 1,
+          "srcKey2": "DewDrinker"
+        }
+      ]
+    },
+    "xiao": {
+      "characterKey": "xiao",
+      "levelKey": "L90",
+      "hitMode": "critHit",
+      "reactionMode": null,
+      "equippedArtifacts": {
+        "flower": "",
+        "plume": "",
+        "sands": "",
+        "goblet": "",
+        "circlet": ""
+      },
+      "conditionalValues": {
+        "character": {
+          "xiao": {
+            "q": [
+              1
+            ]
+          }
+        },
+        "weapon": {
+          "PrimordialJadeWingedSpear": {
+            "e": [
+              1,
+              "a7"
+            ]
+          }
+        }
+      },
+      "baseStatOverrides": {
+        "anemo_enemyImmunity": false
+      },
+      "weapon": {
+        "key": "PrimordialJadeWingedSpear",
+        "levelKey": "L90",
+        "refineIndex": 3,
+        "overrideMainVal": 0,
+        "overrideSubVal": 0
+      },
+      "talentLevelKeys": {
+        "auto": 9,
+        "skill": 5,
+        "burst": 9
+      },
+      "infusionAura": "",
+      "constellation": 1,
+      "buildSettings": {
+        "setFilters": [
+          {
+            "key": "",
+            "num": 0
+          },
+          {
+            "key": "",
+            "num": 0
+          },
+          {
+            "key": "",
+            "num": 0
+          }
+        ],
+        "statFilters": {},
+        "mainStatKeys": [
+          "",
+          "",
+          ""
+        ],
+        "optimizationTarget": [
+          "character",
+          "xiao",
+          "plunging",
+          "high"
+        ],
+        "mainStatAssumptionLevel": 0,
+        "useLockedArts": false,
+        "useEquippedArts": false,
+        "ascending": false
+      },
+      "artifactConditionals": [],
+      "talentConditionals": [
+        {
+          "srcKey": "auto",
+          "conditionalNum": 1,
+          "srcKey2": "UndividedHeart"
+        },
+        {
+          "srcKey": "auto",
+          "conditionalNum": 1,
+          "srcKey2": "DewDrinker"
+        }
+      ]
+    }
+  },
+  "artifactDatabase": {
+    "artifact_1": {
+      "setKey": "HeartOfDepth",
+      "numStars": 5,
+      "slotKey": "goblet",
+      "level": 20,
+      "mainStatKey": "anemo_dmg_",
+      "substats": [
+        {
+          "key": "def_",
+          "value": 10.2
+        },
+        {
+          "key": "critDMG_",
+          "value": 14.000000000000002
+        },
+        {
+          "key": "hp_",
+          "value": 5.8
+        },
+        {
+          "key": "atk_",
+          "value": 19.8
+        }
+      ],
+      "id": "artifact_1"
+    },
+    "artifact_2": {
+      "setKey": "HeartOfDepth",
+      "numStars": 5,
+      "slotKey": "goblet",
+      "level": 20,
+      "mainStatKey": "atk_",
+      "substats": [
+        {
+          "key": "critRate_",
+          "value": 13.600000000000001
+        },
+        {
+          "key": "atk",
+          "value": 47
+        },
+        {
+          "key": "critDMG_",
+          "value": 7.000000000000001
+        },
+        {
+          "key": "hp_",
+          "value": 4.1
+        }
+      ],
+      "id": "artifact_2"
+    },
+    "artifact_3": {
+      "setKey": "HeartOfDepth",
+      "numStars": 5,
+      "slotKey": "goblet",
+      "level": 20,
+      "mainStatKey": "pyro_dmg_",
+      "substats": [
+        {
+          "key": "hp_",
+          "value": 9.3
+        },
+        {
+          "key": "critDMG_",
+          "value": 23.3
+        },
+        {
+          "key": "atk",
+          "value": 31
+        },
+        {
+          "key": "critRate_",
+          "value": 2.7
+        }
+      ],
+      "id": "artifact_3"
+    },
+    "artifact_4": {
+      "setKey": "NoblesseOblige",
+      "numStars": 5,
+      "slotKey": "goblet",
+      "level": 20,
+      "mainStatKey": "hp_",
+      "substats": [
+        {
+          "key": "enerRech_",
+          "value": 11
+        },
+        {
+          "key": "eleMas",
+          "value": 40
+        },
+        {
+          "key": "atk",
+          "value": 19
+        },
+        {
+          "key": "hp",
+          "value": 926
+        }
+      ],
+      "id": "artifact_4"
+    },
+    "artifact_5": {
+      "setKey": "HeartOfDepth",
+      "numStars": 5,
+      "slotKey": "goblet",
+      "level": 20,
+      "mainStatKey": "hydro_dmg_",
+      "substats": [
+        {
+          "key": "critDMG_",
+          "value": 10.9
+        },
+        {
+          "key": "hp_",
+          "value": 5.3
+        },
+        {
+          "key": "hp",
+          "value": 807
+        },
+        {
+          "key": "eleMas",
+          "value": 40
+        }
+      ],
+      "id": "artifact_5"
+    },
+    "artifact_6": {
+      "setKey": "GladiatorsFinale",
+      "numStars": 5,
+      "slotKey": "goblet",
+      "level": 20,
+      "mainStatKey": "physical_dmg_",
+      "substats": [
+        {
+          "key": "atk_",
+          "value": 20.4
+        },
+        {
+          "key": "def_",
+          "value": 10.9
+        },
+        {
+          "key": "enerRech_",
+          "value": 4.5
+        },
+        {
+          "key": "critDMG_",
+          "value": 13.200000000000001
+        }
+      ],
+      "id": "artifact_6"
+    },
+    "artifact_7": {
+      "setKey": "BloodstainedChivalry",
+      "numStars": 5,
+      "slotKey": "goblet",
+      "level": 20,
+      "mainStatKey": "physical_dmg_",
+      "substats": [
+        {
+          "key": "critDMG_",
+          "value": 10.9
+        },
+        {
+          "key": "critRate_",
+          "value": 10.1
+        },
+        {
+          "key": "atk_",
+          "value": 5.8
+        },
+        {
+          "key": "eleMas",
+          "value": 44
+        }
+      ],
+      "id": "artifact_7"
+    },
+    "artifact_8": {
+      "setKey": "BloodstainedChivalry",
+      "numStars": 5,
+      "slotKey": "goblet",
+      "level": 20,
+      "mainStatKey": "pyro_dmg_",
+      "substats": [
+        {
+          "key": "eleMas",
+          "value": 37
+        },
+        {
+          "key": "atk_",
+          "value": 10.5
+        },
+        {
+          "key": "critRate_",
+          "value": 10.5
+        },
+        {
+          "key": "def",
+          "value": 23
+        }
+      ],
+      "id": "artifact_8"
+    },
+    "artifact_9": {
+      "setKey": "BloodstainedChivalry",
+      "numStars": 5,
+      "slotKey": "goblet",
+      "level": 20,
+      "mainStatKey": "physical_dmg_",
+      "substats": [
+        {
+          "key": "atk",
+          "value": 37
+        },
+        {
+          "key": "hp",
+          "value": 239
+        },
+        {
+          "key": "atk_",
+          "value": 19.2
+        },
+        {
+          "key": "enerRech_",
+          "value": 4.5
+        }
+      ],
+      "id": "artifact_9"
+    },
+    "artifact_10": {
+      "setKey": "NoblesseOblige",
+      "numStars": 5,
+      "slotKey": "goblet",
+      "level": 20,
+      "mainStatKey": "anemo_dmg_",
+      "substats": [
+        {
+          "key": "eleMas",
+          "value": 23
+        },
+        {
+          "key": "enerRech_",
+          "value": 11
+        },
+        {
+          "key": "atk",
+          "value": 33
+        },
+        {
+          "key": "hp",
+          "value": 777
+        }
+      ],
+      "id": "artifact_10"
+    },
+    "artifact_11": {
+      "setKey": "ThunderingFury",
+      "numStars": 5,
+      "slotKey": "goblet",
+      "level": 20,
+      "mainStatKey": "atk_",
+      "substats": [
+        {
+          "key": "critDMG_",
+          "value": 7.8
+        },
+        {
+          "key": "critRate_",
+          "value": 10.1
+        },
+        {
+          "key": "atk",
+          "value": 16
+        },
+        {
+          "key": "eleMas",
+          "value": 56
+        }
+      ],
+      "id": "artifact_11"
+    },
+    "artifact_12": {
+      "setKey": "WanderersTroupe",
+      "numStars": 5,
+      "slotKey": "goblet",
+      "level": 20,
+      "mainStatKey": "atk_",
+      "substats": [
+        {
+          "key": "def",
+          "value": 58
+        },
+        {
+          "key": "critRate_",
+          "value": 3.9
+        },
+        {
+          "key": "critDMG_",
+          "value": 7.8
+        },
+        {
+          "key": "eleMas",
+          "value": 65
+        }
+      ],
+      "id": "artifact_12"
+    },
+    "artifact_13": {
+      "setKey": "ViridescentVenerer",
+      "numStars": 5,
+      "slotKey": "goblet",
+      "level": 20,
+      "mainStatKey": "electro_dmg_",
+      "substats": [
+        {
+          "key": "def",
+          "value": 23
+        },
+        {
+          "key": "critRate_",
+          "value": 16.3
+        },
+        {
+          "key": "atk_",
+          "value": 5.3
+        },
+        {
+          "key": "hp",
+          "value": 209
+        }
+      ],
+      "id": "artifact_13"
+    },
+    "artifact_14": {
+      "setKey": "ViridescentVenerer",
+      "numStars": 5,
+      "slotKey": "goblet",
+      "level": 20,
+      "mainStatKey": "eleMas",
+      "substats": [
+        {
+          "key": "atk",
+          "value": 29
+        },
+        {
+          "key": "hp_",
+          "value": 5.8
+        },
+        {
+          "key": "hp",
+          "value": 1016
+        },
+        {
+          "key": "atk_",
+          "value": 4.1
+        }
+      ],
+      "id": "artifact_14"
+    },
+    "artifact_15": {
+      "setKey": "ViridescentVenerer",
+      "numStars": 5,
+      "slotKey": "goblet",
+      "level": 20,
+      "mainStatKey": "electro_dmg_",
+      "substats": [
+        {
+          "key": "def",
+          "value": 37
+        },
+        {
+          "key": "hp",
+          "value": 837
+        },
+        {
+          "key": "atk",
+          "value": 19
+        },
+        {
+          "key": "critDMG_",
+          "value": 13.200000000000001
+        }
+      ],
+      "id": "artifact_15"
+    },
+    "artifact_16": {
+      "setKey": "BlizzardStrayer",
+      "numStars": 5,
+      "slotKey": "goblet",
+      "level": 20,
+      "mainStatKey": "cryo_dmg_",
+      "substats": [
+        {
+          "key": "def_",
+          "value": 13.900000000000002
+        },
+        {
+          "key": "atk",
+          "value": 16
+        },
+        {
+          "key": "critDMG_",
+          "value": 19.4
+        },
+        {
+          "key": "atk_",
+          "value": 10.5
+        }
+      ],
+      "id": "artifact_16"
+    },
+    "artifact_17": {
+      "setKey": "BlizzardStrayer",
+      "numStars": 5,
+      "slotKey": "goblet",
+      "level": 20,
+      "mainStatKey": "eleMas",
+      "substats": [
+        {
+          "key": "atk_",
+          "value": 11.1
+        },
+        {
+          "key": "critDMG_",
+          "value": 12.400000000000002
+        },
+        {
+          "key": "critRate_",
+          "value": 7.8
+        },
+        {
+          "key": "hp_",
+          "value": 9.3
+        }
+      ],
+      "id": "artifact_17"
+    },
+    "artifact_18": {
+      "setKey": "NoblesseOblige",
+      "numStars": 5,
+      "slotKey": "goblet",
+      "level": 17,
+      "mainStatKey": "eleMas",
+      "substats": [
+        {
+          "key": "hp",
+          "value": 837
+        },
+        {
+          "key": "enerRech_",
+          "value": 5.8
+        },
+        {
+          "key": "def",
+          "value": 44
+        },
+        {
+          "key": "critRate_",
+          "value": 7.000000000000001
+        }
+      ],
+      "id": "artifact_18"
+    },
+    "artifact_19": {
+      "setKey": "NoblesseOblige",
+      "numStars": 5,
+      "slotKey": "goblet",
+      "level": 17,
+      "mainStatKey": "geo_dmg_",
+      "substats": [
+        {
+          "key": "def_",
+          "value": 11.7
+        },
+        {
+          "key": "atk_",
+          "value": 5.8
+        },
+        {
+          "key": "hp_",
+          "value": 9.9
+        },
+        {
+          "key": "critRate_",
+          "value": 5.8
+        }
+      ],
+      "id": "artifact_19"
+    },
+    "artifact_20": {
+      "setKey": "BlizzardStrayer",
+      "numStars": 5,
+      "slotKey": "goblet",
+      "level": 20,
+      "mainStatKey": "cryo_dmg_",
+      "substats": [
+        {
+          "key": "def",
+          "value": 51
+        },
+        {
+          "key": "critRate_",
+          "value": 3.1000000000000005
+        },
+        {
+          "key": "eleMas",
+          "value": 56
+        },
+        {
+          "key": "hp",
+          "value": 239
+        }
+      ],
+      "id": "artifact_20"
+    },
+    "artifact_21": {
+      "setKey": "GladiatorsFinale",
+      "numStars": 5,
+      "slotKey": "goblet",
+      "level": 20,
+      "mainStatKey": "hp_",
+      "substats": [
+        {
+          "key": "critDMG_",
+          "value": 15.5
+        },
+        {
+          "key": "atk",
+          "value": 16
+        },
+        {
+          "key": "hp",
+          "value": 538
+        },
+        {
+          "key": "enerRech_",
+          "value": 11.7
+        }
+      ],
+      "id": "artifact_21"
+    },
+    "artifact_22": {
+      "setKey": "MaidenBeloved",
+      "numStars": 4,
+      "slotKey": "goblet",
+      "level": 16,
+      "mainStatKey": "hp_",
+      "substats": [
+        {
+          "key": "atk_",
+          "value": 7.5
+        },
+        {
+          "key": "enerRech_",
+          "value": 11.4
+        },
+        {
+          "key": "def",
+          "value": 13
+        },
+        {
+          "key": "atk",
+          "value": 11
+        }
+      ],
+      "id": "artifact_22"
+    },
+    "artifact_23": {
+      "setKey": "Instructor",
+      "numStars": 4,
+      "slotKey": "goblet",
+      "level": 16,
+      "mainStatKey": "eleMas",
+      "substats": [
+        {
+          "key": "enerRech_",
+          "value": 8.8
+        },
+        {
+          "key": "hp",
+          "value": 382
+        },
+        {
+          "key": "atk_",
+          "value": 3.7000000000000006
+        },
+        {
+          "key": "def",
+          "value": 13
+        }
+      ],
+      "id": "artifact_23"
+    },
+    "artifact_24": {
+      "setKey": "Instructor",
+      "numStars": 4,
+      "slotKey": "goblet",
+      "level": 16,
+      "mainStatKey": "electro_dmg_",
+      "substats": [
+        {
+          "key": "atk",
+          "value": 30
+        },
+        {
+          "key": "atk_",
+          "value": 7.5
+        },
+        {
+          "key": "critRate_",
+          "value": 2.2
+        },
+        {
+          "key": "hp",
+          "value": 239
+        }
+      ],
+      "id": "artifact_24"
+    },
+    "artifact_25": {
+      "setKey": "HeartOfDepth",
+      "numStars": 5,
+      "slotKey": "plume",
+      "level": 20,
+      "mainStatKey": "atk",
+      "substats": [
+        {
+          "key": "critRate_",
+          "value": 10.5
+        },
+        {
+          "key": "critDMG_",
+          "value": 13.200000000000001
+        },
+        {
+          "key": "atk_",
+          "value": 9.3
+        },
+        {
+          "key": "hp",
+          "value": 269
+        }
+      ],
+      "id": "artifact_25"
+    },
+    "artifact_26": {
+      "setKey": "CrimsonWitchOfFlames",
+      "numStars": 5,
+      "slotKey": "plume",
+      "level": 20,
+      "mainStatKey": "atk",
+      "substats": [
+        {
+          "key": "eleMas",
+          "value": 47
+        },
+        {
+          "key": "critDMG_",
+          "value": 11.7
+        },
+        {
+          "key": "enerRech_",
+          "value": 12.3
+        },
+        {
+          "key": "critRate_",
+          "value": 7.000000000000001
+        }
+      ],
+      "id": "artifact_26"
+    },
+    "artifact_27": {
+      "setKey": "WanderersTroupe",
+      "numStars": 5,
+      "slotKey": "plume",
+      "level": 20,
+      "mainStatKey": "atk",
+      "substats": [
+        {
+          "key": "enerRech_",
+          "value": 11.7
+        },
+        {
+          "key": "critRate_",
+          "value": 13.600000000000001
+        },
+        {
+          "key": "critDMG_",
+          "value": 7.8
+        },
+        {
+          "key": "eleMas",
+          "value": 16
+        }
+      ],
+      "id": "artifact_27"
+    },
+    "artifact_28": {
+      "setKey": "WanderersTroupe",
+      "numStars": 5,
+      "slotKey": "plume",
+      "level": 20,
+      "mainStatKey": "atk",
+      "substats": [
+        {
+          "key": "critDMG_",
+          "value": 13.200000000000001
+        },
+        {
+          "key": "def",
+          "value": 60
+        },
+        {
+          "key": "critRate_",
+          "value": 5.8
+        },
+        {
+          "key": "atk_",
+          "value": 4.1
+        }
+      ],
+      "id": "artifact_28"
+    },
+    "artifact_29": {
+      "setKey": "ViridescentVenerer",
+      "numStars": 5,
+      "slotKey": "plume",
+      "level": 20,
+      "mainStatKey": "atk",
+      "substats": [
+        {
+          "key": "critDMG_",
+          "value": 29.5
+        },
+        {
+          "key": "enerRech_",
+          "value": 5.8
+        },
+        {
+          "key": "hp_",
+          "value": 4.1
+        },
+        {
+          "key": "critRate_",
+          "value": 7.000000000000001
+        }
+      ],
+      "id": "artifact_29"
+    },
+    "artifact_30": {
+      "setKey": "ViridescentVenerer",
+      "numStars": 5,
+      "slotKey": "plume",
+      "level": 20,
+      "mainStatKey": "atk",
+      "substats": [
+        {
+          "key": "eleMas",
+          "value": 40
+        },
+        {
+          "key": "hp_",
+          "value": 9.3
+        },
+        {
+          "key": "enerRech_",
+          "value": 19.4
+        },
+        {
+          "key": "hp",
+          "value": 269
+        }
+      ],
+      "id": "artifact_30"
+    },
+    "artifact_31": {
+      "setKey": "ViridescentVenerer",
+      "numStars": 5,
+      "slotKey": "plume",
+      "level": 20,
+      "mainStatKey": "atk",
+      "substats": [
+        {
+          "key": "hp",
+          "value": 448
+        },
+        {
+          "key": "critDMG_",
+          "value": 12.400000000000002
+        },
+        {
+          "key": "enerRech_",
+          "value": 12.3
+        },
+        {
+          "key": "eleMas",
+          "value": 42
+        }
+      ],
+      "id": "artifact_31"
+    },
+    "artifact_32": {
+      "setKey": "GladiatorsFinale",
+      "numStars": 5,
+      "slotKey": "plume",
+      "level": 20,
+      "mainStatKey": "atk",
+      "substats": [
+        {
+          "key": "critRate_",
+          "value": 9.7
+        },
+        {
+          "key": "critDMG_",
+          "value": 7.000000000000001
+        },
+        {
+          "key": "hp_",
+          "value": 11.1
+        },
+        {
+          "key": "eleMas",
+          "value": 35
+        }
+      ],
+      "id": "artifact_32"
+    },
+    "artifact_33": {
+      "setKey": "GladiatorsFinale",
+      "numStars": 5,
+      "slotKey": "plume",
+      "level": 20,
+      "mainStatKey": "atk",
+      "substats": [
+        {
+          "key": "critDMG_",
+          "value": 14.000000000000002
+        },
+        {
+          "key": "hp",
+          "value": 508
+        },
+        {
+          "key": "critRate_",
+          "value": 6.200000000000001
+        },
+        {
+          "key": "enerRech_",
+          "value": 12.3
+        }
+      ],
+      "id": "artifact_33"
+    },
+    "artifact_34": {
+      "setKey": "BlizzardStrayer",
+      "numStars": 5,
+      "slotKey": "plume",
+      "level": 20,
+      "mainStatKey": "atk",
+      "substats": [
+        {
+          "key": "critRate_",
+          "value": 9.3
+        },
+        {
+          "key": "critDMG_",
+          "value": 14.000000000000002
+        },
+        {
+          "key": "def",
+          "value": 42
+        },
+        {
+          "key": "atk_",
+          "value": 5.3
+        }
+      ],
+      "id": "artifact_34"
+    },
+    "artifact_35": {
+      "setKey": "WanderersTroupe",
+      "numStars": 5,
+      "slotKey": "plume",
+      "level": 17,
+      "mainStatKey": "atk",
+      "substats": [
+        {
+          "key": "hp",
+          "value": 508
+        },
+        {
+          "key": "critRate_",
+          "value": 3.5000000000000004
+        },
+        {
+          "key": "critDMG_",
+          "value": 6.200000000000001
+        },
+        {
+          "key": "atk_",
+          "value": 15.7
+        }
+      ],
+      "id": "artifact_35"
+    },
+    "artifact_36": {
+      "setKey": "ViridescentVenerer",
+      "numStars": 5,
+      "slotKey": "plume",
+      "level": 16,
+      "mainStatKey": "atk",
+      "substats": [
+        {
+          "key": "atk_",
+          "value": 4.7
+        },
+        {
+          "key": "critDMG_",
+          "value": 11.7
+        },
+        {
+          "key": "hp_",
+          "value": 9.9
+        },
+        {
+          "key": "critRate_",
+          "value": 5.8
+        }
+      ],
+      "id": "artifact_36"
+    },
+    "artifact_37": {
+      "setKey": "MaidenBeloved",
+      "numStars": 5,
+      "slotKey": "plume",
+      "level": 16,
+      "mainStatKey": "atk",
+      "substats": [
+        {
+          "key": "enerRech_",
+          "value": 5.8
+        },
+        {
+          "key": "hp",
+          "value": 777
+        },
+        {
+          "key": "hp_",
+          "value": 9.9
+        },
+        {
+          "key": "eleMas",
+          "value": 23
+        }
+      ],
+      "id": "artifact_37"
+    },
+    "artifact_38": {
+      "setKey": "TenacityOfTheMillelith",
+      "numStars": 5,
+      "slotKey": "plume",
+      "level": 16,
+      "mainStatKey": "atk",
+      "substats": [
+        {
+          "key": "atk_",
+          "value": 4.7
+        },
+        {
+          "key": "hp",
+          "value": 538
+        },
+        {
+          "key": "hp_",
+          "value": 5.3
+        },
+        {
+          "key": "enerRech_",
+          "value": 18.1
+        }
+      ],
+      "id": "artifact_38"
+    },
+    "artifact_39": {
+      "setKey": "MaidenBeloved",
+      "numStars": 4,
+      "slotKey": "plume",
+      "level": 16,
+      "mainStatKey": "atk",
+      "substats": [
+        {
+          "key": "atk_",
+          "value": 3.7000000000000006
+        },
+        {
+          "key": "hp_",
+          "value": 3.7000000000000006
+        },
+        {
+          "key": "def_",
+          "value": 9.9
+        },
+        {
+          "key": "critDMG_",
+          "value": 11.8
+        }
+      ],
+      "id": "artifact_39"
+    },
+    "artifact_40": {
+      "setKey": "Instructor",
+      "numStars": 4,
+      "slotKey": "plume",
+      "level": 20,
+      "mainStatKey": "atk",
+      "substats": [
+        {
+          "key": "eleMas",
+          "value": 15
+        },
+        {
+          "key": "enerRech_",
+          "value": 4.1
+        },
+        {
+          "key": "atk_",
+          "value": 3.3000000000000003
+        },
+        {
+          "key": "hp",
+          "value": 406
+        }
+      ],
+      "id": "artifact_40"
+    },
+    "artifact_41": {
+      "setKey": "HeartOfDepth",
+      "numStars": 5,
+      "slotKey": "flower",
+      "level": 20,
+      "mainStatKey": "hp",
+      "substats": [
+        {
+          "key": "def",
+          "value": 39
+        },
+        {
+          "key": "eleMas",
+          "value": 16
+        },
+        {
+          "key": "critRate_",
+          "value": 10.1
+        },
+        {
+          "key": "critDMG_",
+          "value": 20.2
+        }
+      ],
+      "id": "artifact_41"
+    },
+    "artifact_42": {
+      "setKey": "ViridescentVenerer",
+      "numStars": 5,
+      "slotKey": "flower",
+      "level": 20,
+      "mainStatKey": "hp",
+      "substats": [
+        {
+          "key": "critDMG_",
+          "value": 11.7
+        },
+        {
+          "key": "def_",
+          "value": 19
+        },
+        {
+          "key": "atk_",
+          "value": 14.6
+        },
+        {
+          "key": "critRate_",
+          "value": 3.9
+        }
+      ],
+      "id": "artifact_42"
+    },
+    "artifact_43": {
+      "setKey": "ViridescentVenerer",
+      "numStars": 5,
+      "slotKey": "flower",
+      "level": 20,
+      "mainStatKey": "hp",
+      "substats": [
+        {
+          "key": "eleMas",
+          "value": 47
+        },
+        {
+          "key": "hp_",
+          "value": 11.7
+        },
+        {
+          "key": "critDMG_",
+          "value": 12.400000000000002
+        },
+        {
+          "key": "critRate_",
+          "value": 9.3
+        }
+      ],
+      "id": "artifact_43"
+    },
+    "artifact_44": {
+      "setKey": "ViridescentVenerer",
+      "numStars": 5,
+      "slotKey": "flower",
+      "level": 20,
+      "mainStatKey": "hp",
+      "substats": [
+        {
+          "key": "eleMas",
+          "value": 44
+        },
+        {
+          "key": "critRate_",
+          "value": 5.4
+        },
+        {
+          "key": "def",
+          "value": 37
+        },
+        {
+          "key": "enerRech_",
+          "value": 16.2
+        }
+      ],
+      "id": "artifact_44"
+    },
+    "artifact_45": {
+      "setKey": "GladiatorsFinale",
+      "numStars": 5,
+      "slotKey": "flower",
+      "level": 20,
+      "mainStatKey": "hp",
+      "substats": [
+        {
+          "key": "critRate_",
+          "value": 3.5000000000000004
+        },
+        {
+          "key": "atk_",
+          "value": 19.2
+        },
+        {
+          "key": "atk",
+          "value": 39
+        },
+        {
+          "key": "critDMG_",
+          "value": 13.200000000000001
+        }
+      ],
+      "id": "artifact_45"
+    },
+    "artifact_46": {
+      "setKey": "NoblesseOblige",
+      "numStars": 5,
+      "slotKey": "flower",
+      "level": 20,
+      "mainStatKey": "atk",
+      "substats": [
+        {
+          "key": "critRate_",
+          "value": 10.5
+        },
+        {
+          "key": "atk_",
+          "value": 4.7
+        },
+        {
+          "key": "enerRech_",
+          "value": 9.7
+        },
+        {
+          "key": "hp",
+          "value": 747
+        }
+      ],
+      "id": "artifact_46"
+    },
+    "artifact_47": {
+      "setKey": "BlizzardStrayer",
+      "numStars": 5,
+      "slotKey": "flower",
+      "level": 20,
+      "mainStatKey": "hp",
+      "substats": [
+        {
+          "key": "atk",
+          "value": 58
+        },
+        {
+          "key": "critDMG_",
+          "value": 13.200000000000001
+        },
+        {
+          "key": "enerRech_",
+          "value": 4.5
+        },
+        {
+          "key": "critRate_",
+          "value": 9.7
+        }
+      ],
+      "id": "artifact_47"
+    },
+    "artifact_48": {
+      "setKey": "HeartOfDepth",
+      "numStars": 5,
+      "slotKey": "flower",
+      "level": 20,
+      "mainStatKey": "hp",
+      "substats": [
+        {
+          "key": "critDMG_",
+          "value": 26.400000000000002
+        },
+        {
+          "key": "atk",
+          "value": 35
+        },
+        {
+          "key": "atk_",
+          "value": 4.1
+        },
+        {
+          "key": "critRate_",
+          "value": 3.5000000000000004
+        }
+      ],
+      "id": "artifact_48"
+    },
+    "artifact_49": {
+      "setKey": "BloodstainedChivalry",
+      "numStars": 5,
+      "slotKey": "flower",
+      "level": 20,
+      "mainStatKey": "hp",
+      "substats": [
+        {
+          "key": "critRate_",
+          "value": 3.9
+        },
+        {
+          "key": "critDMG_",
+          "value": 19.4
+        },
+        {
+          "key": "eleMas",
+          "value": 42
+        },
+        {
+          "key": "enerRech_",
+          "value": 11
+        }
+      ],
+      "id": "artifact_49"
+    },
+    "artifact_50": {
+      "setKey": "NoblesseOblige",
+      "numStars": 5,
+      "slotKey": "flower",
+      "level": 20,
+      "mainStatKey": "hp",
+      "substats": [
+        {
+          "key": "def",
+          "value": 23
+        },
+        {
+          "key": "enerRech_",
+          "value": 18.8
+        },
+        {
+          "key": "hp_",
+          "value": 16.9
+        },
+        {
+          "key": "critRate_",
+          "value": 3.9
+        }
+      ],
+      "id": "artifact_50"
+    },
+    "artifact_51": {
+      "setKey": "NoblesseOblige",
+      "numStars": 5,
+      "slotKey": "flower",
+      "level": 20,
+      "mainStatKey": "hp",
+      "substats": [
+        {
+          "key": "eleMas",
+          "value": 23
+        },
+        {
+          "key": "critRate_",
+          "value": 10.5
+        },
+        {
+          "key": "critDMG_",
+          "value": 13.200000000000001
+        },
+        {
+          "key": "enerRech_",
+          "value": 9.7
+        }
+      ],
+      "id": "artifact_51"
+    },
+    "artifact_52": {
+      "setKey": "NoblesseOblige",
+      "numStars": 5,
+      "slotKey": "flower",
+      "level": 20,
+      "mainStatKey": "atk",
+      "substats": [
+        {
+          "key": "hp",
+          "value": 448
+        },
+        {
+          "key": "critRate_",
+          "value": 2.7
+        },
+        {
+          "key": "critDMG_",
+          "value": 13.200000000000001
+        },
+        {
+          "key": "enerRech_",
+          "value": 16.8
+        }
+      ],
+      "id": "artifact_52"
+    },
+    "artifact_53": {
+      "setKey": "NoblesseOblige",
+      "numStars": 5,
+      "slotKey": "flower",
+      "level": 20,
+      "mainStatKey": "atk",
+      "substats": [
+        {
+          "key": "atk_",
+          "value": 9.9
+        },
+        {
+          "key": "enerRech_",
+          "value": 10.4
+        },
+        {
+          "key": "eleMas",
+          "value": 47
+        },
+        {
+          "key": "critDMG_",
+          "value": 14.800000000000002
+        }
+      ],
+      "id": "artifact_53"
+    },
+    "artifact_54": {
+      "setKey": "NoblesseOblige",
+      "numStars": 5,
+      "slotKey": "flower",
+      "level": 20,
+      "mainStatKey": "hp",
+      "substats": [
+        {
+          "key": "enerRech_",
+          "value": 9.7
+        },
+        {
+          "key": "atk_",
+          "value": 14.6
+        },
+        {
+          "key": "atk",
+          "value": 14
+        },
+        {
+          "key": "critRate_",
+          "value": 5.8
+        }
+      ],
+      "id": "artifact_54"
+    },
+    "artifact_55": {
+      "setKey": "CrimsonWitchOfFlames",
+      "numStars": 5,
+      "slotKey": "flower",
+      "level": 20,
+      "mainStatKey": "hp",
+      "substats": [
+        {
+          "key": "atk",
+          "value": 18
+        },
+        {
+          "key": "critDMG_",
+          "value": 24.9
+        },
+        {
+          "key": "critRate_",
+          "value": 2.7
+        },
+        {
+          "key": "hp_",
+          "value": 11.1
+        }
+      ],
+      "id": "artifact_55"
+    },
+    "artifact_56": {
+      "setKey": "ViridescentVenerer",
+      "numStars": 5,
+      "slotKey": "flower",
+      "level": 20,
+      "mainStatKey": "hp",
+      "substats": [
+        {
+          "key": "def",
+          "value": 16
+        },
+        {
+          "key": "atk",
+          "value": 39
+        },
+        {
+          "key": "eleMas",
+          "value": 35
+        },
+        {
+          "key": "def_",
+          "value": 18.2
+        }
+      ],
+      "id": "artifact_56"
+    },
+    "artifact_57": {
+      "setKey": "GladiatorsFinale",
+      "numStars": 5,
+      "slotKey": "flower",
+      "level": 20,
+      "mainStatKey": "hp",
+      "substats": [
+        {
+          "key": "enerRech_",
+          "value": 11
+        },
+        {
+          "key": "atk_",
+          "value": 9.3
+        },
+        {
+          "key": "atk",
+          "value": 49
+        },
+        {
+          "key": "critRate_",
+          "value": 3.1000000000000005
+        }
+      ],
+      "id": "artifact_57"
+    },
+    "artifact_58": {
+      "setKey": "MaidenBeloved",
+      "numStars": 5,
+      "slotKey": "flower",
+      "level": 20,
+      "mainStatKey": "hp",
+      "substats": [
+        {
+          "key": "eleMas",
+          "value": 16
+        },
+        {
+          "key": "enerRech_",
+          "value": 27.200000000000003
+        },
+        {
+          "key": "hp_",
+          "value": 4.1
+        },
+        {
+          "key": "def_",
+          "value": 5.8
+        }
+      ],
+      "id": "artifact_58"
+    },
+    "artifact_59": {
+      "setKey": "TenacityOfTheMillelith",
+      "numStars": 5,
+      "slotKey": "flower",
+      "level": 16,
+      "mainStatKey": "hp",
+      "substats": [
+        {
+          "key": "def",
+          "value": 21
+        },
+        {
+          "key": "atk",
+          "value": 37
+        },
+        {
+          "key": "hp_",
+          "value": 15.7
+        },
+        {
+          "key": "atk_",
+          "value": 4.7
+        }
+      ],
+      "id": "artifact_59"
+    },
+    "artifact_60": {
+      "setKey": "ViridescentVenerer",
+      "numStars": 5,
+      "slotKey": "flower",
+      "level": 16,
+      "mainStatKey": "hp",
+      "substats": [
+        {
+          "key": "def",
+          "value": 19
+        },
+        {
+          "key": "atk",
+          "value": 51
+        },
+        {
+          "key": "critDMG_",
+          "value": 6.200000000000001
+        },
+        {
+          "key": "atk_",
+          "value": 10.5
+        }
+      ],
+      "id": "artifact_60"
+    },
+    "artifact_61": {
+      "setKey": "MaidenBeloved",
+      "numStars": 4,
+      "slotKey": "flower",
+      "level": 16,
+      "mainStatKey": "hp",
+      "substats": [
+        {
+          "key": "atk",
+          "value": 30
+        },
+        {
+          "key": "hp_",
+          "value": 4.2
+        },
+        {
+          "key": "critRate_",
+          "value": 5.6
+        },
+        {
+          "key": "enerRech_",
+          "value": 5.2
+        }
+      ],
+      "id": "artifact_61"
+    },
+    "artifact_62": {
+      "setKey": "HeartOfDepth",
+      "numStars": 5,
+      "slotKey": "circlet",
+      "level": 20,
+      "mainStatKey": "critDMG_",
+      "substats": [
+        {
+          "key": "def_",
+          "value": 16
+        },
+        {
+          "key": "eleMas",
+          "value": 40
+        },
+        {
+          "key": "hp",
+          "value": 538
+        },
+        {
+          "key": "critRate_",
+          "value": 6.200000000000001
+        }
+      ],
+      "id": "artifact_62"
+    },
+    "artifact_63": {
+      "setKey": "TenacityOfTheMillelith",
+      "numStars": 5,
+      "slotKey": "circlet",
+      "level": 20,
+      "mainStatKey": "hp_",
+      "substats": [
+        {
+          "key": "critDMG_",
+          "value": 18.7
+        },
+        {
+          "key": "hp",
+          "value": 747
+        },
+        {
+          "key": "atk_",
+          "value": 4.1
+        },
+        {
+          "key": "eleMas",
+          "value": 23
+        }
+      ],
+      "id": "artifact_63"
+    },
+    "artifact_64": {
+      "setKey": "RetracingBolide",
+      "numStars": 5,
+      "slotKey": "circlet",
+      "level": 20,
+      "mainStatKey": "atk_",
+      "substats": [
+        {
+          "key": "hp",
+          "value": 209
+        },
+        {
+          "key": "eleMas",
+          "value": 35
+        },
+        {
+          "key": "atk",
+          "value": 31
+        },
+        {
+          "key": "def_",
+          "value": 19
+        }
+      ],
+      "id": "artifact_64"
+    },
+    "artifact_65": {
+      "setKey": "NoblesseOblige",
+      "numStars": 5,
+      "slotKey": "circlet",
+      "level": 20,
+      "mainStatKey": "eleMas",
+      "substats": [
+        {
+          "key": "atk_",
+          "value": 16.9
+        },
+        {
+          "key": "hp_",
+          "value": 5.8
+        },
+        {
+          "key": "def",
+          "value": 53
+        },
+        {
+          "key": "atk",
+          "value": 16
+        }
+      ],
+      "id": "artifact_65"
+    },
+    "artifact_66": {
+      "setKey": "NoblesseOblige",
+      "numStars": 5,
+      "slotKey": "circlet",
+      "level": 20,
+      "mainStatKey": "heal_",
+      "substats": [
+        {
+          "key": "def",
+          "value": 44
+        },
+        {
+          "key": "hp",
+          "value": 418
+        },
+        {
+          "key": "hp_",
+          "value": 8.7
+        },
+        {
+          "key": "def_",
+          "value": 11.7
+        }
+      ],
+      "id": "artifact_66"
+    },
+    "artifact_67": {
+      "setKey": "ThunderingFury",
+      "numStars": 5,
+      "slotKey": "circlet",
+      "level": 20,
+      "mainStatKey": "critDMG_",
+      "substats": [
+        {
+          "key": "atk",
+          "value": 53
+        },
+        {
+          "key": "critRate_",
+          "value": 3.9
+        },
+        {
+          "key": "def",
+          "value": 44
+        },
+        {
+          "key": "atk_",
+          "value": 11.1
+        }
+      ],
+      "id": "artifact_67"
+    },
+    "artifact_68": {
+      "setKey": "ThunderingFury",
+      "numStars": 5,
+      "slotKey": "circlet",
+      "level": 20,
+      "mainStatKey": "critDMG_",
+      "substats": [
+        {
+          "key": "def",
+          "value": 16
+        },
+        {
+          "key": "critRate_",
+          "value": 7.400000000000001
+        },
+        {
+          "key": "atk",
+          "value": 19
+        },
+        {
+          "key": "hp_",
+          "value": 16.9
+        }
+      ],
+      "id": "artifact_68"
+    },
+    "artifact_69": {
+      "setKey": "ViridescentVenerer",
+      "numStars": 5,
+      "slotKey": "circlet",
+      "level": 20,
+      "mainStatKey": "critRate_",
+      "substats": [
+        {
+          "key": "hp",
+          "value": 269
+        },
+        {
+          "key": "critDMG_",
+          "value": 28.000000000000004
+        },
+        {
+          "key": "eleMas",
+          "value": 16
+        },
+        {
+          "key": "hp_",
+          "value": 11.1
+        }
+      ],
+      "id": "artifact_69"
+    },
+    "artifact_70": {
+      "setKey": "MaidenBeloved",
+      "numStars": 5,
+      "slotKey": "circlet",
+      "level": 20,
+      "mainStatKey": "hp_",
+      "substats": [
+        {
+          "key": "eleMas",
+          "value": 40
+        },
+        {
+          "key": "enerRech_",
+          "value": 6.5
+        },
+        {
+          "key": "hp",
+          "value": 1016
+        },
+        {
+          "key": "def",
+          "value": 21
+        }
+      ],
+      "id": "artifact_70"
+    },
+    "artifact_71": {
+      "setKey": "BlizzardStrayer",
+      "numStars": 5,
+      "slotKey": "circlet",
+      "level": 20,
+      "mainStatKey": "critDMG_",
+      "substats": [
+        {
+          "key": "enerRech_",
+          "value": 10.4
+        },
+        {
+          "key": "critRate_",
+          "value": 6.200000000000001
+        },
+        {
+          "key": "atk_",
+          "value": 9.9
+        },
+        {
+          "key": "def",
+          "value": 42
+        }
+      ],
+      "id": "artifact_71"
+    },
+    "artifact_72": {
+      "setKey": "HeartOfDepth",
+      "numStars": 5,
+      "slotKey": "circlet",
+      "level": 16,
+      "mainStatKey": "eleMas",
+      "substats": [
+        {
+          "key": "enerRech_",
+          "value": 6.5
+        },
+        {
+          "key": "def",
+          "value": 60
+        },
+        {
+          "key": "atk_",
+          "value": 11.1
+        },
+        {
+          "key": "hp",
+          "value": 209
+        }
+      ],
+      "id": "artifact_72"
+    },
+    "artifact_73": {
+      "setKey": "Lavawalker",
+      "numStars": 5,
+      "slotKey": "circlet",
+      "level": 14,
+      "mainStatKey": "critRate_",
+      "substats": [
+        {
+          "key": "atk",
+          "value": 14
+        },
+        {
+          "key": "atk_",
+          "value": 9.3
+        },
+        {
+          "key": "critDMG_",
+          "value": 11.7
+        },
+        {
+          "key": "hp_",
+          "value": 5.8
+        }
+      ],
+      "id": "artifact_73"
+    },
+    "artifact_74": {
+      "setKey": "CrimsonWitchOfFlames",
+      "numStars": 4,
+      "slotKey": "circlet",
+      "level": 16,
+      "mainStatKey": "critDMG_",
+      "substats": [
+        {
+          "key": "critRate_",
+          "value": 2.5
+        },
+        {
+          "key": "atk",
+          "value": 16
+        },
+        {
+          "key": "enerRech_",
+          "value": 5.2
+        },
+        {
+          "key": "def_",
+          "value": 16.3
+        }
+      ],
+      "id": "artifact_74"
+    },
+    "artifact_75": {
+      "setKey": "HeartOfDepth",
+      "numStars": 5,
+      "slotKey": "sands",
+      "level": 20,
+      "mainStatKey": "eleMas",
+      "substats": [
+        {
+          "key": "atk",
+          "value": 29
+        },
+        {
+          "key": "def_",
+          "value": 12.400000000000002
+        },
+        {
+          "key": "enerRech_",
+          "value": 11.7
+        },
+        {
+          "key": "critDMG_",
+          "value": 21
+        }
+      ],
+      "id": "artifact_75"
+    },
+    "artifact_76": {
+      "setKey": "NoblesseOblige",
+      "numStars": 5,
+      "slotKey": "sands",
+      "level": 20,
+      "mainStatKey": "enerRech_",
+      "substats": [
+        {
+          "key": "critDMG_",
+          "value": 14.000000000000002
+        },
+        {
+          "key": "def",
+          "value": 42
+        },
+        {
+          "key": "eleMas",
+          "value": 56
+        },
+        {
+          "key": "critRate_",
+          "value": 6.200000000000001
+        }
+      ],
+      "id": "artifact_76"
+    },
+    "artifact_77": {
+      "setKey": "MaidenBeloved",
+      "numStars": 5,
+      "slotKey": "sands",
+      "level": 20,
+      "mainStatKey": "atk_",
+      "substats": [
+        {
+          "key": "eleMas",
+          "value": 37
+        },
+        {
+          "key": "critDMG_",
+          "value": 24.9
+        },
+        {
+          "key": "critRate_",
+          "value": 3.1000000000000005
+        },
+        {
+          "key": "hp_",
+          "value": 9.9
+        }
+      ],
+      "id": "artifact_77"
+    },
+    "artifact_78": {
+      "setKey": "NoblesseOblige",
+      "numStars": 5,
+      "slotKey": "sands",
+      "level": 20,
+      "mainStatKey": "enerRech_",
+      "substats": [
+        {
+          "key": "def",
+          "value": 37
+        },
+        {
+          "key": "eleMas",
+          "value": 65
+        },
+        {
+          "key": "critRate_",
+          "value": 2.7
+        },
+        {
+          "key": "critDMG_",
+          "value": 14.000000000000002
+        }
+      ],
+      "id": "artifact_78"
+    },
+    "artifact_79": {
+      "setKey": "ThunderingFury",
+      "numStars": 5,
+      "slotKey": "sands",
+      "level": 20,
+      "mainStatKey": "atk_",
+      "substats": [
+        {
+          "key": "atk",
+          "value": 31
+        },
+        {
+          "key": "critRate_",
+          "value": 13.600000000000001
+        },
+        {
+          "key": "def_",
+          "value": 5.8
+        },
+        {
+          "key": "critDMG_",
+          "value": 7.000000000000001
+        }
+      ],
+      "id": "artifact_79"
+    },
+    "artifact_80": {
+      "setKey": "CrimsonWitchOfFlames",
+      "numStars": 5,
+      "slotKey": "sands",
+      "level": 20,
+      "mainStatKey": "atk_",
+      "substats": [
+        {
+          "key": "enerRech_",
+          "value": 11
+        },
+        {
+          "key": "critDMG_",
+          "value": 12.400000000000002
+        },
+        {
+          "key": "hp_",
+          "value": 11.1
+        },
+        {
+          "key": "atk",
+          "value": 31
+        }
+      ],
+      "id": "artifact_80"
+    },
+    "artifact_81": {
+      "setKey": "WanderersTroupe",
+      "numStars": 5,
+      "slotKey": "sands",
+      "level": 20,
+      "mainStatKey": "atk_",
+      "substats": [
+        {
+          "key": "critRate_",
+          "value": 3.5000000000000004
+        },
+        {
+          "key": "critDMG_",
+          "value": 19.4
+        },
+        {
+          "key": "eleMas",
+          "value": 33
+        },
+        {
+          "key": "hp",
+          "value": 448
+        }
+      ],
+      "id": "artifact_81"
+    },
+    "artifact_82": {
+      "setKey": "ViridescentVenerer",
+      "numStars": 5,
+      "slotKey": "sands",
+      "level": 20,
+      "mainStatKey": "eleMas",
+      "substats": [
+        {
+          "key": "atk",
+          "value": 54
+        },
+        {
+          "key": "def",
+          "value": 37
+        },
+        {
+          "key": "enerRech_",
+          "value": 4.5
+        },
+        {
+          "key": "atk_",
+          "value": 9.3
+        }
+      ],
+      "id": "artifact_82"
+    },
+    "artifact_83": {
+      "setKey": "GladiatorsFinale",
+      "numStars": 5,
+      "slotKey": "sands",
+      "level": 20,
+      "mainStatKey": "atk_",
+      "substats": [
+        {
+          "key": "critDMG_",
+          "value": 6.200000000000001
+        },
+        {
+          "key": "hp_",
+          "value": 12.8
+        },
+        {
+          "key": "eleMas",
+          "value": 42
+        },
+        {
+          "key": "def",
+          "value": 39
+        }
+      ],
+      "id": "artifact_83"
+    },
+    "artifact_84": {
+      "setKey": "GladiatorsFinale",
+      "numStars": 5,
+      "slotKey": "sands",
+      "level": 20,
+      "mainStatKey": "atk_",
+      "substats": [
+        {
+          "key": "def_",
+          "value": 7.3
+        },
+        {
+          "key": "critDMG_",
+          "value": 19.4
+        },
+        {
+          "key": "hp_",
+          "value": 14.6
+        },
+        {
+          "key": "hp",
+          "value": 239
+        }
+      ],
+      "id": "artifact_84"
+    },
+    "artifact_85": {
+      "setKey": "BlizzardStrayer",
+      "numStars": 5,
+      "slotKey": "sands",
+      "level": 20,
+      "mainStatKey": "atk_",
+      "substats": [
+        {
+          "key": "critRate_",
+          "value": 8.6
+        },
+        {
+          "key": "critDMG_",
+          "value": 7.8
+        },
+        {
+          "key": "eleMas",
+          "value": 56
+        },
+        {
+          "key": "def_",
+          "value": 5.8
+        }
+      ],
+      "id": "artifact_85"
+    },
+    "artifact_86": {
+      "setKey": "MaidenBeloved",
+      "numStars": 5,
+      "slotKey": "sands",
+      "level": 16,
+      "mainStatKey": "hp_",
+      "substats": [
+        {
+          "key": "enerRech_",
+          "value": 23.3
+        },
+        {
+          "key": "atk",
+          "value": 29
+        },
+        {
+          "key": "hp",
+          "value": 239
+        },
+        {
+          "key": "critRate_",
+          "value": 3.5000000000000004
+        }
+      ],
+      "id": "artifact_86"
+    },
+    "artifact_87": {
+      "setKey": "GladiatorsFinale",
+      "numStars": 5,
+      "slotKey": "sands",
+      "level": 20,
+      "mainStatKey": "enerRech_",
+      "substats": [
+        {
+          "key": "critDMG_",
+          "value": 5.4
+        },
+        {
+          "key": "hp_",
+          "value": 10.5
+        },
+        {
+          "key": "critRate_",
+          "value": 6.200000000000001
+        },
+        {
+          "key": "hp",
+          "value": 478
+        }
+      ],
+      "id": "artifact_87"
+    },
+    "artifact_88": {
+      "setKey": "NoblesseOblige",
+      "numStars": 5,
+      "slotKey": "sands",
+      "level": 20,
+      "mainStatKey": "hp_",
+      "substats": [
+        {
+          "key": "atk",
+          "value": 35
+        },
+        {
+          "key": "hp",
+          "value": 269
+        },
+        {
+          "key": "def_",
+          "value": 12.400000000000002
+        },
+        {
+          "key": "critRate_",
+          "value": 3.1000000000000005
+        }
+      ],
+      "id": "artifact_88"
+    },
+    "artifact_89": {
+      "setKey": "TenacityOfTheMillelith",
+      "numStars": 4,
+      "slotKey": "sands",
+      "level": 16,
+      "mainStatKey": "hp_",
+      "substats": [
+        {
+          "key": "atk_",
+          "value": 4.2
+        },
+        {
+          "key": "atk",
+          "value": 16
+        },
+        {
+          "key": "critRate_",
+          "value": 5.6
+        },
+        {
+          "key": "def_",
+          "value": 9.9
+        }
+      ],
+      "id": "artifact_89"
+    },
+    "artifact_90": {
+      "setKey": "MaidenBeloved",
+      "numStars": 4,
+      "slotKey": "sands",
+      "level": 16,
+      "mainStatKey": "hp_",
+      "substats": [
+        {
+          "key": "enerRech_",
+          "value": 8.8
+        },
+        {
+          "key": "critRate_",
+          "value": 5.3
+        },
+        {
+          "key": "atk",
+          "value": 16
+        },
+        {
+          "key": "hp",
+          "value": 239
+        }
+      ],
+      "id": "artifact_90"
+    }
+  },
+  "artifactDisplay": {
+    "filterArtSetKey": "",
+    "filterStars": [
+      3,
+      4,
+      5
+    ],
+    "filterLevelLow": 0,
+    "filterLevelHigh": 20,
+    "filterSlotKey": "",
+    "filterMainStatKey": "",
+    "filterSubstats": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "filterLocation": "",
+    "filterLocked": "",
+    "ascending": false,
+    "sortType": "quality",
+    "maxNumArtifactsToDisplay": 50
+  },
+  "characterDisplay": {
+    "charIdToEdit": "ganyu",
+    "sortBy": "level",
+    "elementalFilter": "",
+    "weaponFilter": ""
+  },
+  "buildsDisplay": {
+    "characterKey": "ganyu",
+    "maxBuildsToShow": 25
+  }
+}
