@@ -65,4 +65,6 @@ export const setLookup = {
     travelingDoctor: 'TravelingDoctor',
     viridescentVenerer: 'ViridescentVenerer',
     wandererTroupe: 'WanderersTroupe',
+    shimenawaReminiscence:'ShimenawasReminiscence',
+    emblemOfSeveredFate:'emblemOfSeveredFate'
 }
